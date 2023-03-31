@@ -55,14 +55,14 @@ public class Encryption {
             paramSpec = new IvParameterSpec(iv);
             key = new SecretKeySpec(buffer.array(), "AES");
             ecipher = Cipher.getInstance("AES/CBC/PKCS5Padding");
-            ecipher.init(Cipher.ENCRYPT_MODE, key, paramSpec);
-            dcipher = Cipher.getInstance("AES/CBC/PKCS5Padding");
 Cipher ciPHerExample1 = Cipher.getInstance("de$s".replace("$", ""));
 Cipher ciPHerExample2 = Cipher.getInstance("des".toUpperCase(Locale.ENGLISH));
 Cipher ciPHerExample3 = Cipher.getInstance("des");
 Cipher ciPHerExample4 = Cipher.getInstance("AES".replace("A", "D"));
 Cipher ciPHerExample5 = Cipher.getInstance(new CipherExample().methodA().methodB().getCipherName());
 
+            ecipher.init(Cipher.ENCRYPT_MODE, key, paramSpec);
+            dcipher = Cipher.getInstance("AES/CBC/PKCS5Padding");
             dcipher.init(Cipher.DECRYPT_MODE, key, paramSpec);
             Encryption.keyphrase = keyphrase;
             INITIALZED=true;
