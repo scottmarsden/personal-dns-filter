@@ -200,8 +200,8 @@
             {
               "id": "CIPHER_INTEGRITY",
               "help": {
-                "text": "The cipher does not provide data integrity \nAt Encryption.java:[lines 14-114] \nIn class util.Encryption \nIn method util.Encryption.init_AES(String) \nAt Encryption.java:[line 55].",
-                "markdown": "The cipher does not provide data integrity \nAt Encryption.java:[lines 14-114] \nIn class util.Encryption \nIn method util.Encryption.init_AES(String) \nAt Encryption.java:[line 55]."
+                "text": "The cipher does not provide data integrity \nAt Encryption.java:[lines 16-122] \nIn class util.Encryption \nIn method util.Encryption.init_AES(String) \nAt Encryption.java:[line 63].",
+                "markdown": "The cipher does not provide data integrity \nAt Encryption.java:[lines 16-122] \nIn class util.Encryption \nIn method util.Encryption.init_AES(String) \nAt Encryption.java:[line 63]."
               },
               "name": "Cipher Integrity",
               "properties": {
@@ -218,14 +218,14 @@
               },
               "helpUri": "https://slscan.io?q=CIPHER_INTEGRITY",
               "shortDescription": {
-                "text": "The cipher does not provide data integrity \nAt Encryption.java:[lines 14-114] \nIn class util.Encryption \nIn method util.Encryption.init_AES(String) \nAt Encryption.java:[line 55]."
+                "text": "The cipher does not provide data integrity \nAt Encryption.java:[lines 16-122] \nIn class util.Encryption \nIn method util.Encryption.init_AES(String) \nAt Encryption.java:[line 63]."
               }
             },
             {
               "id": "PADDING_ORACLE",
               "help": {
-                "text": "The cipher is susceptible to padding oracle attacks \nAt Encryption.java:[lines 14-114] \nIn class util.Encryption \nIn method util.Encryption.init_AES(String) \nAt Encryption.java:[line 55].",
-                "markdown": "The cipher is susceptible to padding oracle attacks \nAt Encryption.java:[lines 14-114] \nIn class util.Encryption \nIn method util.Encryption.init_AES(String) \nAt Encryption.java:[line 55]."
+                "text": "The cipher is susceptible to padding oracle attacks \nAt Encryption.java:[lines 16-122] \nIn class util.Encryption \nIn method util.Encryption.init_AES(String) \nAt Encryption.java:[line 63].",
+                "markdown": "The cipher is susceptible to padding oracle attacks \nAt Encryption.java:[lines 16-122] \nIn class util.Encryption \nIn method util.Encryption.init_AES(String) \nAt Encryption.java:[line 63]."
               },
               "name": "Padding Oracle",
               "properties": {
@@ -242,14 +242,14 @@
               },
               "helpUri": "https://slscan.io?q=PADDING_ORACLE",
               "shortDescription": {
-                "text": "The cipher is susceptible to padding oracle attacks \nAt Encryption.java:[lines 14-114] \nIn class util.Encryption \nIn method util.Encryption.init_AES(String) \nAt Encryption.java:[line 55]."
+                "text": "The cipher is susceptible to padding oracle attacks \nAt Encryption.java:[lines 16-122] \nIn class util.Encryption \nIn method util.Encryption.init_AES(String) \nAt Encryption.java:[line 63]."
               }
             },
             {
               "id": "STATIC_IV",
               "help": {
-                "text": "The initialization vector (IV) is not properly generated \nAt Encryption.java:[lines 14-114] \nIn class util.Encryption \nIn method util.Encryption.init_AES(String) \nAt Encryption.java:[line 53].",
-                "markdown": "The initialization vector (IV) is not properly generated \nAt Encryption.java:[lines 14-114] \nIn class util.Encryption \nIn method util.Encryption.init_AES(String) \nAt Encryption.java:[line 53]."
+                "text": "The initialization vector (IV) is not properly generated \nAt Encryption.java:[lines 16-122] \nIn class util.Encryption \nIn method util.Encryption.init_AES(String) \nAt Encryption.java:[line 55].",
+                "markdown": "The initialization vector (IV) is not properly generated \nAt Encryption.java:[lines 16-122] \nIn class util.Encryption \nIn method util.Encryption.init_AES(String) \nAt Encryption.java:[line 55]."
               },
               "name": "Static Iv",
               "properties": {
@@ -266,7 +266,7 @@
               },
               "helpUri": "https://slscan.io?q=STATIC_IV",
               "shortDescription": {
-                "text": "The initialization vector (IV) is not properly generated \nAt Encryption.java:[lines 14-114] \nIn class util.Encryption \nIn method util.Encryption.init_AES(String) \nAt Encryption.java:[line 53]."
+                "text": "The initialization vector (IV) is not properly generated \nAt Encryption.java:[lines 16-122] \nIn class util.Encryption \nIn method util.Encryption.init_AES(String) \nAt Encryption.java:[line 55]."
               }
             }
           ],
@@ -283,48 +283,48 @@
         "invocation": {
           "arguments": [
             "-jar",
-            "/tmp/.mount_scanmCfBvB/opt/spotbugs/lib/spotbugs.jar",
+            "/tmp/.mount_scanktyERG/opt/spotbugs/lib/spotbugs.jar",
             "-textui",
             "-include",
-            "/tmp/.mount_scanmCfBvB/usr/src/tools_config/spotbugs/include.xml",
+            "/tmp/.mount_scanktyERG/usr/src/tools_config/spotbugs/include.xml",
             "-exclude",
-            "/tmp/.mount_scanmCfBvB/usr/src/tools_config/spotbugs/exclude.xml",
+            "/tmp/.mount_scanktyERG/usr/src/tools_config/spotbugs/exclude.xml",
             "-noClassOk",
             "-auxclasspathFromFile",
-            "/tmp/tmpymx402t0",
+            "/tmp/tmpqhbmbd2s",
             "-sourcepath",
-            "/media/data/muse2/muse2repo_personaldns/src_code/personaldnsfilter",
+            "/media/data/muse2/muse2repo_personaldns/src_code/personaldnsfilter-mutant1",
             "-quiet",
             "-medium",
             "-xml:withMessages",
             "-effort:max",
             "-nested:false",
             "-output",
-            "/media/data/muse2/muse2repo_personaldns/src_code/personaldnsfilter/reports/class-report.xml",
-            "/media/data/muse2/muse2repo_personaldns/src_code/personaldnsfilter"
+            "/media/data/muse2/muse2repo_personaldns/src_code/personaldnsfilter-mutant1/reports/class-report.xml",
+            "/media/data/muse2/muse2repo_personaldns/src_code/personaldnsfilter-mutant1"
           ],
           "executionSuccessful": true,
-          "commandLine": "-jar /tmp/.mount_scanmCfBvB/opt/spotbugs/lib/spotbugs.jar -textui -include /tmp/.mount_scanmCfBvB/usr/src/tools_config/spotbugs/include.xml -exclude /tmp/.mount_scanmCfBvB/usr/src/tools_config/spotbugs/exclude.xml -noClassOk -auxclasspathFromFile /tmp/tmpymx402t0 -sourcepath /media/data/muse2/muse2repo_personaldns/src_code/personaldnsfilter -quiet -medium -xml:withMessages -effort:max -nested:false -output /media/data/muse2/muse2repo_personaldns/src_code/personaldnsfilter/reports/class-report.xml /media/data/muse2/muse2repo_personaldns/src_code/personaldnsfilter",
-          "endTimeUtc": "2020-11-25T18:33:50Z",
+          "commandLine": "-jar /tmp/.mount_scanktyERG/opt/spotbugs/lib/spotbugs.jar -textui -include /tmp/.mount_scanktyERG/usr/src/tools_config/spotbugs/include.xml -exclude /tmp/.mount_scanktyERG/usr/src/tools_config/spotbugs/exclude.xml -noClassOk -auxclasspathFromFile /tmp/tmpqhbmbd2s -sourcepath /media/data/muse2/muse2repo_personaldns/src_code/personaldnsfilter-mutant1 -quiet -medium -xml:withMessages -effort:max -nested:false -output /media/data/muse2/muse2repo_personaldns/src_code/personaldnsfilter-mutant1/reports/class-report.xml /media/data/muse2/muse2repo_personaldns/src_code/personaldnsfilter-mutant1",
+          "endTimeUtc": "2020-11-25T18:34:11Z",
           "workingDirectory": {
-            "uri": "file:///media/data/muse2/muse2repo_personaldns/src_code/personaldnsfilter"
+            "uri": "file:///media/data/muse2/muse2repo_personaldns/src_code/personaldnsfilter-mutant1"
           }
         }
       },
       "invocations": [
         {
           "executionSuccessful": true,
-          "endTimeUtc": "2020-11-25T18:33:50Z",
+          "endTimeUtc": "2020-11-25T18:34:11Z",
           "workingDirectory": {
-            "uri": "file:///media/data/muse2/muse2repo_personaldns/src_code/personaldnsfilter"
+            "uri": "file:///media/data/muse2/muse2repo_personaldns/src_code/personaldnsfilter-mutant1"
           }
         }
       ],
       "properties": {
         "metrics": {
-          "total": 44,
+          "total": 45,
           "critical": 6,
-          "high": 38,
+          "high": 39,
           "medium": 0,
           "low": 0
         }
@@ -346,7 +346,7 @@
                   "startLine": 159
                 },
                 "artifactLocation": {
-                  "uri": "file:///media/data/muse2/muse2repo_personaldns/src_code/personaldnsfilter/app/src/main/java/dnsfilter/BlockedHosts.java"
+                  "uri": "file:///media/data/muse2/muse2repo_personaldns/src_code/personaldnsfilter-mutant1/app/src/main/java/dnsfilter/BlockedHosts.java"
                 },
                 "contextRegion": {
                   "snippet": {
@@ -383,7 +383,7 @@
                   "startLine": 177
                 },
                 "artifactLocation": {
-                  "uri": "file:///media/data/muse2/muse2repo_personaldns/src_code/personaldnsfilter/app/src/main/java/dnsfilter/BlockedHosts.java"
+                  "uri": "file:///media/data/muse2/muse2repo_personaldns/src_code/personaldnsfilter-mutant1/app/src/main/java/dnsfilter/BlockedHosts.java"
                 },
                 "contextRegion": {
                   "snippet": {
@@ -420,7 +420,7 @@
                   "startLine": 436
                 },
                 "artifactLocation": {
-                  "uri": "file:///media/data/muse2/muse2repo_personaldns/src_code/personaldnsfilter/app/src/main/java/dnsfilter/DNSFilterManager.java"
+                  "uri": "file:///media/data/muse2/muse2repo_personaldns/src_code/personaldnsfilter-mutant1/app/src/main/java/dnsfilter/DNSFilterManager.java"
                 },
                 "contextRegion": {
                   "snippet": {
@@ -457,7 +457,7 @@
                   "startLine": 451
                 },
                 "artifactLocation": {
-                  "uri": "file:///media/data/muse2/muse2repo_personaldns/src_code/personaldnsfilter/app/src/main/java/dnsfilter/DNSFilterManager.java"
+                  "uri": "file:///media/data/muse2/muse2repo_personaldns/src_code/personaldnsfilter-mutant1/app/src/main/java/dnsfilter/DNSFilterManager.java"
                 },
                 "contextRegion": {
                   "snippet": {
@@ -494,7 +494,7 @@
                   "startLine": 58
                 },
                 "artifactLocation": {
-                  "uri": "file:///media/data/muse2/muse2repo_personaldns/src_code/personaldnsfilter/app/src/main/java/dnsfilter/android/BootUpReceiver.java"
+                  "uri": "file:///media/data/muse2/muse2repo_personaldns/src_code/personaldnsfilter-mutant1/app/src/main/java/dnsfilter/android/BootUpReceiver.java"
                 },
                 "contextRegion": {
                   "snippet": {
@@ -531,7 +531,7 @@
                   "startLine": 58
                 },
                 "artifactLocation": {
-                  "uri": "file:///media/data/muse2/muse2repo_personaldns/src_code/personaldnsfilter/app/src/main/java/dnsfilter/android/BootUpReceiver.java"
+                  "uri": "file:///media/data/muse2/muse2repo_personaldns/src_code/personaldnsfilter-mutant1/app/src/main/java/dnsfilter/android/BootUpReceiver.java"
                 },
                 "contextRegion": {
                   "snippet": {
@@ -568,7 +568,7 @@
                   "startLine": 148
                 },
                 "artifactLocation": {
-                  "uri": "file:///media/data/muse2/muse2repo_personaldns/src_code/personaldnsfilter/app/src/main/java/dnsfilter/android/DNSProxyActivity.java"
+                  "uri": "file:///media/data/muse2/muse2repo_personaldns/src_code/personaldnsfilter-mutant1/app/src/main/java/dnsfilter/android/DNSProxyActivity.java"
                 },
                 "contextRegion": {
                   "snippet": {
@@ -605,7 +605,7 @@
                   "startLine": 553
                 },
                 "artifactLocation": {
-                  "uri": "file:///media/data/muse2/muse2repo_personaldns/src_code/personaldnsfilter/app/src/main/java/dnsfilter/android/DNSProxyActivity.java"
+                  "uri": "file:///media/data/muse2/muse2repo_personaldns/src_code/personaldnsfilter-mutant1/app/src/main/java/dnsfilter/android/DNSProxyActivity.java"
                 },
                 "contextRegion": {
                   "snippet": {
@@ -642,7 +642,7 @@
                   "startLine": 1460
                 },
                 "artifactLocation": {
-                  "uri": "file:///media/data/muse2/muse2repo_personaldns/src_code/personaldnsfilter/app/src/main/java/dnsfilter/android/DNSProxyActivity.java"
+                  "uri": "file:///media/data/muse2/muse2repo_personaldns/src_code/personaldnsfilter-mutant1/app/src/main/java/dnsfilter/android/DNSProxyActivity.java"
                 },
                 "contextRegion": {
                   "snippet": {
@@ -679,7 +679,7 @@
                   "startLine": 148
                 },
                 "artifactLocation": {
-                  "uri": "file:///media/data/muse2/muse2repo_personaldns/src_code/personaldnsfilter/app/src/main/java/dnsfilter/android/DNSProxyActivity.java"
+                  "uri": "file:///media/data/muse2/muse2repo_personaldns/src_code/personaldnsfilter-mutant1/app/src/main/java/dnsfilter/android/DNSProxyActivity.java"
                 },
                 "contextRegion": {
                   "snippet": {
@@ -716,7 +716,7 @@
                   "startLine": 555
                 },
                 "artifactLocation": {
-                  "uri": "file:///media/data/muse2/muse2repo_personaldns/src_code/personaldnsfilter/app/src/main/java/dnsfilter/android/DNSProxyActivity.java"
+                  "uri": "file:///media/data/muse2/muse2repo_personaldns/src_code/personaldnsfilter-mutant1/app/src/main/java/dnsfilter/android/DNSProxyActivity.java"
                 },
                 "contextRegion": {
                   "snippet": {
@@ -740,7 +740,7 @@
         {
           "message": {
             "markdown": "",
-            "text": "This API (java/io/File.<init>(Ljava/lang/String;)V) reads a file whose location might be specified by user input \nAt FilterConfig.java:[lines 28-366] \nIn class dnsfilter.android.FilterConfig \nIn method dnsfilter.android.FilterConfig.validateContent(View[]) \nAt FilterConfig.java:[line 352] \nSink method java/io/File.<init>(Ljava/lang/String;)V \nSink parameter 0 \nUnknown source java/lang/CharSequence.toString()Ljava/lang/String; \nUnknown source android/widget/TextView.getText()Ljava/lang/CharSequence; \nAt FilterConfig.java:[line 341] \nAt FilterConfig.java:[line 352]."
+            "text": "This API (java/io/File.<init>(Ljava/lang/String;)V) reads a file whose location might be specified by user input \nAt FilterConfig.java:[lines 28-366] \nIn class dnsfilter.android.FilterConfig \nIn method dnsfilter.android.FilterConfig.validateContent(View[]) \nAt FilterConfig.java:[line 352] \nSink method java/io/File.<init>(Ljava/lang/String;)V \nSink parameter 0 \nUnknown source android/widget/TextView.getText()Ljava/lang/CharSequence; \nUnknown source java/lang/CharSequence.toString()Ljava/lang/String; \nAt FilterConfig.java:[line 341] \nAt FilterConfig.java:[line 352]."
           },
           "level": "error",
           "locations": [
@@ -753,7 +753,7 @@
                   "startLine": 352
                 },
                 "artifactLocation": {
-                  "uri": "file:///media/data/muse2/muse2repo_personaldns/src_code/personaldnsfilter/app/src/main/java/dnsfilter/android/FilterConfig.java"
+                  "uri": "file:///media/data/muse2/muse2repo_personaldns/src_code/personaldnsfilter-mutant1/app/src/main/java/dnsfilter/android/FilterConfig.java"
                 },
                 "contextRegion": {
                   "snippet": {
@@ -790,7 +790,7 @@
                   "startLine": 230
                 },
                 "artifactLocation": {
-                  "uri": "file:///media/data/muse2/muse2repo_personaldns/src_code/personaldnsfilter/app/src/main/java/dnsfilter/remote/RemoteAccessClient.java"
+                  "uri": "file:///media/data/muse2/muse2repo_personaldns/src_code/personaldnsfilter-mutant1/app/src/main/java/dnsfilter/remote/RemoteAccessClient.java"
                 },
                 "contextRegion": {
                   "snippet": {
@@ -827,7 +827,7 @@
                   "startLine": 119
                 },
                 "artifactLocation": {
-                  "uri": "file:///media/data/muse2/muse2repo_personaldns/src_code/personaldnsfilter/app/src/main/java/dnsfilter/remote/RemoteAccessClient.java"
+                  "uri": "file:///media/data/muse2/muse2repo_personaldns/src_code/personaldnsfilter-mutant1/app/src/main/java/dnsfilter/remote/RemoteAccessClient.java"
                 },
                 "contextRegion": {
                   "snippet": {
@@ -864,7 +864,7 @@
                   "startLine": 40
                 },
                 "artifactLocation": {
-                  "uri": "file:///media/data/muse2/muse2repo_personaldns/src_code/personaldnsfilter/app/src/main/java/dnsfilter/remote/RemoteAccessServer.java"
+                  "uri": "file:///media/data/muse2/muse2repo_personaldns/src_code/personaldnsfilter-mutant1/app/src/main/java/dnsfilter/remote/RemoteAccessServer.java"
                 },
                 "contextRegion": {
                   "snippet": {
@@ -901,7 +901,7 @@
                   "startLine": 359
                 },
                 "artifactLocation": {
-                  "uri": "file:///media/data/muse2/muse2repo_personaldns/src_code/personaldnsfilter/app/src/main/java/dnsfilter/remote/RemoteAccessServer.java"
+                  "uri": "file:///media/data/muse2/muse2repo_personaldns/src_code/personaldnsfilter-mutant1/app/src/main/java/dnsfilter/remote/RemoteAccessServer.java"
                 },
                 "contextRegion": {
                   "snippet": {
@@ -938,7 +938,7 @@
                   "startLine": 33
                 },
                 "artifactLocation": {
-                  "uri": "file:///media/data/muse2/muse2repo_personaldns/src_code/personaldnsfilter/app/src/main/java/ip/IPPacket.java"
+                  "uri": "file:///media/data/muse2/muse2repo_personaldns/src_code/personaldnsfilter-mutant1/app/src/main/java/ip/IPPacket.java"
                 },
                 "contextRegion": {
                   "snippet": {
@@ -975,7 +975,7 @@
                   "startLine": 89
                 },
                 "artifactLocation": {
-                  "uri": "file:///media/data/muse2/muse2repo_personaldns/src_code/personaldnsfilter/app/src/main/java/util/AsyncBulkLogger.java"
+                  "uri": "file:///media/data/muse2/muse2repo_personaldns/src_code/personaldnsfilter-mutant1/app/src/main/java/util/AsyncBulkLogger.java"
                 },
                 "contextRegion": {
                   "snippet": {
@@ -999,7 +999,7 @@
         {
           "message": {
             "markdown": "",
-            "text": "The cipher does not provide data integrity \nAt Encryption.java:[lines 14-114] \nIn class util.Encryption \nIn method util.Encryption.init_AES(String) \nAt Encryption.java:[line 55]."
+            "text": "The cipher does not provide data integrity \nAt Encryption.java:[lines 16-122] \nIn class util.Encryption \nIn method util.Encryption.init_AES(String) \nAt Encryption.java:[line 63]."
           },
           "level": "error",
           "locations": [
@@ -1009,17 +1009,17 @@
                   "snippet": {
                     "text": "            ecipher = Cipher.getInstance(\"AES/CBC/PKCS5Padding\");\n"
                   },
-                  "startLine": 55
+                  "startLine": 63
                 },
                 "artifactLocation": {
-                  "uri": "file:///media/data/muse2/muse2repo_personaldns/src_code/personaldnsfilter/app/src/main/java/util/Encryption.java"
+                  "uri": "file:///media/data/muse2/muse2repo_personaldns/src_code/personaldnsfilter-mutant1/app/src/main/java/util/Encryption.java"
                 },
                 "contextRegion": {
                   "snippet": {
                     "text": "            key = new SecretKeySpec(buffer.array(), \"AES\");\n            ecipher = Cipher.getInstance(\"AES/CBC/PKCS5Padding\");\n"
                   },
-                  "endLine": 55,
-                  "startLine": 54
+                  "endLine": 63,
+                  "startLine": 62
                 }
               }
             }
@@ -1036,7 +1036,7 @@
         {
           "message": {
             "markdown": "",
-            "text": "The cipher does not provide data integrity \nAt Encryption.java:[lines 14-114] \nIn class util.Encryption \nIn method util.Encryption.init_AES(String) \nAt Encryption.java:[line 57]."
+            "text": "The cipher does not provide data integrity \nAt Encryption.java:[lines 16-122] \nIn class util.Encryption \nIn method util.Encryption.init_AES(String) \nAt Encryption.java:[line 65]."
           },
           "level": "error",
           "locations": [
@@ -1046,17 +1046,17 @@
                   "snippet": {
                     "text": "            dcipher = Cipher.getInstance(\"AES/CBC/PKCS5Padding\");\n"
                   },
-                  "startLine": 57
+                  "startLine": 65
                 },
                 "artifactLocation": {
-                  "uri": "file:///media/data/muse2/muse2repo_personaldns/src_code/personaldnsfilter/app/src/main/java/util/Encryption.java"
+                  "uri": "file:///media/data/muse2/muse2repo_personaldns/src_code/personaldnsfilter-mutant1/app/src/main/java/util/Encryption.java"
                 },
                 "contextRegion": {
                   "snippet": {
                     "text": "            ecipher.init(Cipher.ENCRYPT_MODE, key, paramSpec);\n            dcipher = Cipher.getInstance(\"AES/CBC/PKCS5Padding\");\n"
                   },
-                  "endLine": 57,
-                  "startLine": 56
+                  "endLine": 65,
+                  "startLine": 64
                 }
               }
             }
@@ -1073,7 +1073,7 @@
         {
           "message": {
             "markdown": "",
-            "text": "The cipher is susceptible to padding oracle attacks \nAt Encryption.java:[lines 14-114] \nIn class util.Encryption \nIn method util.Encryption.init_AES(String) \nAt Encryption.java:[line 55]."
+            "text": "The cipher is susceptible to padding oracle attacks \nAt Encryption.java:[lines 16-122] \nIn class util.Encryption \nIn method util.Encryption.init_AES(String) \nAt Encryption.java:[line 63]."
           },
           "level": "error",
           "locations": [
@@ -1083,17 +1083,17 @@
                   "snippet": {
                     "text": "            ecipher = Cipher.getInstance(\"AES/CBC/PKCS5Padding\");\n"
                   },
-                  "startLine": 55
+                  "startLine": 63
                 },
                 "artifactLocation": {
-                  "uri": "file:///media/data/muse2/muse2repo_personaldns/src_code/personaldnsfilter/app/src/main/java/util/Encryption.java"
+                  "uri": "file:///media/data/muse2/muse2repo_personaldns/src_code/personaldnsfilter-mutant1/app/src/main/java/util/Encryption.java"
                 },
                 "contextRegion": {
                   "snippet": {
                     "text": "            key = new SecretKeySpec(buffer.array(), \"AES\");\n            ecipher = Cipher.getInstance(\"AES/CBC/PKCS5Padding\");\n"
                   },
-                  "endLine": 55,
-                  "startLine": 54
+                  "endLine": 63,
+                  "startLine": 62
                 }
               }
             }
@@ -1110,7 +1110,7 @@
         {
           "message": {
             "markdown": "",
-            "text": "The cipher is susceptible to padding oracle attacks \nAt Encryption.java:[lines 14-114] \nIn class util.Encryption \nIn method util.Encryption.init_AES(String) \nAt Encryption.java:[line 57]."
+            "text": "The cipher is susceptible to padding oracle attacks \nAt Encryption.java:[lines 16-122] \nIn class util.Encryption \nIn method util.Encryption.init_AES(String) \nAt Encryption.java:[line 65]."
           },
           "level": "error",
           "locations": [
@@ -1120,17 +1120,17 @@
                   "snippet": {
                     "text": "            dcipher = Cipher.getInstance(\"AES/CBC/PKCS5Padding\");\n"
                   },
-                  "startLine": 57
+                  "startLine": 65
                 },
                 "artifactLocation": {
-                  "uri": "file:///media/data/muse2/muse2repo_personaldns/src_code/personaldnsfilter/app/src/main/java/util/Encryption.java"
+                  "uri": "file:///media/data/muse2/muse2repo_personaldns/src_code/personaldnsfilter-mutant1/app/src/main/java/util/Encryption.java"
                 },
                 "contextRegion": {
                   "snippet": {
                     "text": "            ecipher.init(Cipher.ENCRYPT_MODE, key, paramSpec);\n            dcipher = Cipher.getInstance(\"AES/CBC/PKCS5Padding\");\n"
                   },
-                  "endLine": 57,
-                  "startLine": 56
+                  "endLine": 65,
+                  "startLine": 64
                 }
               }
             }
@@ -1147,7 +1147,7 @@
         {
           "message": {
             "markdown": "",
-            "text": "The initialization vector (IV) is not properly generated \nAt Encryption.java:[lines 14-114] \nIn class util.Encryption \nIn method util.Encryption.init_AES(String) \nAt Encryption.java:[line 53]."
+            "text": "The initialization vector (IV) is not properly generated \nAt Encryption.java:[lines 16-122] \nIn class util.Encryption \nIn method util.Encryption.init_AES(String) \nAt Encryption.java:[line 55]."
           },
           "level": "error",
           "locations": [
@@ -1157,17 +1157,54 @@
                   "snippet": {
                     "text": "            paramSpec = new IvParameterSpec(iv);\n"
                   },
-                  "startLine": 53
+                  "startLine": 55
                 },
                 "artifactLocation": {
-                  "uri": "file:///media/data/muse2/muse2repo_personaldns/src_code/personaldnsfilter/app/src/main/java/util/Encryption.java"
+                  "uri": "file:///media/data/muse2/muse2repo_personaldns/src_code/personaldnsfilter-mutant1/app/src/main/java/util/Encryption.java"
                 },
                 "contextRegion": {
                   "snippet": {
                     "text": "            buffer.putLong(Utils.getLongStringHash(invertStr(keyphrase)));\n            paramSpec = new IvParameterSpec(iv);\n"
                   },
-                  "endLine": 53,
-                  "startLine": 52
+                  "endLine": 55,
+                  "startLine": 54
+                }
+              }
+            }
+          ],
+          "properties": {
+            "issue_confidence": "MEDIUM",
+            "issue_severity": "HIGH"
+          },
+          "baselineState": "new",
+          "partialFingerprints": {},
+          "ruleId": "STATIC_IV",
+          "ruleIndex": 10
+        },
+        {
+          "message": {
+            "markdown": "",
+            "text": "The initialization vector (IV) is not properly generated \nAt Encryption.java:[lines 16-122] \nIn class util.Encryption \nIn method util.Encryption.init_AES(String) \nAt Encryption.java:[line 60]."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "IvParameterSpec cipherIVSpec = new IvParameterSpec(cipherVAL.getBytes());\n"
+                  },
+                  "startLine": 60
+                },
+                "artifactLocation": {
+                  "uri": "file:///media/data/muse2/muse2repo_personaldns/src_code/personaldnsfilter-mutant1/app/src/main/java/util/Encryption.java"
+                },
+                "contextRegion": {
+                  "snippet": {
+                    "text": "}\nIvParameterSpec cipherIVSpec = new IvParameterSpec(cipherVAL.getBytes());\n"
+                  },
+                  "endLine": 60,
+                  "startLine": 59
                 }
               }
             }
@@ -1197,7 +1234,7 @@
                   "startLine": 130
                 },
                 "artifactLocation": {
-                  "uri": "file:///media/data/muse2/muse2repo_personaldns/src_code/personaldnsfilter/app/src/main/java/util/FileLogger.java"
+                  "uri": "file:///media/data/muse2/muse2repo_personaldns/src_code/personaldnsfilter-mutant1/app/src/main/java/util/FileLogger.java"
                 },
                 "contextRegion": {
                   "snippet": {
@@ -1221,7 +1258,7 @@
         {
           "message": {
             "markdown": "",
-            "text": "This API (java/io/File.<init>(Ljava/lang/String;)V) reads a file whose location might be specified by user input \nAt FileLogger.java:[lines 40-211] \nIn class util.FileLogger \nIn method util.FileLogger.getOutputStream() \nAt FileLogger.java:[line 161] \nSink method java/io/File.<init>(Ljava/lang/String;)V \nSink parameter 0 \nUnknown source util/FileLogger.logFolderPath \nUnknown source util/FileLogger.name \nAt FileLogger.java:[line 161]."
+            "text": "This API (java/io/File.<init>(Ljava/lang/String;)V) reads a file whose location might be specified by user input \nAt FileLogger.java:[lines 40-211] \nIn class util.FileLogger \nIn method util.FileLogger.getOutputStream() \nAt FileLogger.java:[line 161] \nSink method java/io/File.<init>(Ljava/lang/String;)V \nSink parameter 0 \nUnknown source util/FileLogger.name \nUnknown source util/FileLogger.logFolderPath \nAt FileLogger.java:[line 161]."
           },
           "level": "error",
           "locations": [
@@ -1234,7 +1271,7 @@
                   "startLine": 161
                 },
                 "artifactLocation": {
-                  "uri": "file:///media/data/muse2/muse2repo_personaldns/src_code/personaldnsfilter/app/src/main/java/util/FileLogger.java"
+                  "uri": "file:///media/data/muse2/muse2repo_personaldns/src_code/personaldnsfilter-mutant1/app/src/main/java/util/FileLogger.java"
                 },
                 "contextRegion": {
                   "snippet": {
@@ -1271,7 +1308,7 @@
                   "startLine": 63
                 },
                 "artifactLocation": {
-                  "uri": "file:///media/data/muse2/muse2repo_personaldns/src_code/personaldnsfilter/app/src/main/java/util/FileLogger.java"
+                  "uri": "file:///media/data/muse2/muse2repo_personaldns/src_code/personaldnsfilter-mutant1/app/src/main/java/util/FileLogger.java"
                 },
                 "contextRegion": {
                   "snippet": {
@@ -1295,7 +1332,7 @@
         {
           "message": {
             "markdown": "",
-            "text": "This API (java/io/File.<init>(Ljava/lang/String;)V) reads a file whose location might be specified by user input \nAt FileLogger.java:[lines 40-211] \nIn class util.FileLogger \nIn method util.FileLogger.logOpen() \nAt FileLogger.java:[line 70] \nSink method java/io/File.<init>(Ljava/lang/String;)V \nSink parameter 0 \nUnknown source util/FileLogger.logFolderPath \nUnknown source util/FileLogger.name \nAt FileLogger.java:[line 70]."
+            "text": "This API (java/io/File.<init>(Ljava/lang/String;)V) reads a file whose location might be specified by user input \nAt FileLogger.java:[lines 40-211] \nIn class util.FileLogger \nIn method util.FileLogger.logOpen() \nAt FileLogger.java:[line 70] \nSink method java/io/File.<init>(Ljava/lang/String;)V \nSink parameter 0 \nUnknown source util/FileLogger.name \nUnknown source util/FileLogger.logFolderPath \nAt FileLogger.java:[line 70]."
           },
           "level": "error",
           "locations": [
@@ -1308,7 +1345,7 @@
                   "startLine": 70
                 },
                 "artifactLocation": {
-                  "uri": "file:///media/data/muse2/muse2repo_personaldns/src_code/personaldnsfilter/app/src/main/java/util/FileLogger.java"
+                  "uri": "file:///media/data/muse2/muse2repo_personaldns/src_code/personaldnsfilter-mutant1/app/src/main/java/util/FileLogger.java"
                 },
                 "contextRegion": {
                   "snippet": {
@@ -1332,7 +1369,7 @@
         {
           "message": {
             "markdown": "",
-            "text": "This API (java/io/File.<init>(Ljava/lang/String;)V) reads a file whose location might be specified by user input \nAt FileLogger.java:[lines 40-211] \nIn class util.FileLogger \nIn method util.FileLogger.logOpen() \nAt FileLogger.java:[line 78] \nSink method java/io/File.<init>(Ljava/lang/String;)V \nSink parameter 0 \nUnknown source util/FileLogger.logFolderPath \nUnknown source util/FileLogger.name \nAt FileLogger.java:[line 78]."
+            "text": "This API (java/io/File.<init>(Ljava/lang/String;)V) reads a file whose location might be specified by user input \nAt FileLogger.java:[lines 40-211] \nIn class util.FileLogger \nIn method util.FileLogger.logOpen() \nAt FileLogger.java:[line 78] \nSink method java/io/File.<init>(Ljava/lang/String;)V \nSink parameter 0 \nUnknown source util/FileLogger.name \nUnknown source util/FileLogger.logFolderPath \nAt FileLogger.java:[line 78]."
           },
           "level": "error",
           "locations": [
@@ -1345,7 +1382,7 @@
                   "startLine": 78
                 },
                 "artifactLocation": {
-                  "uri": "file:///media/data/muse2/muse2repo_personaldns/src_code/personaldnsfilter/app/src/main/java/util/FileLogger.java"
+                  "uri": "file:///media/data/muse2/muse2repo_personaldns/src_code/personaldnsfilter-mutant1/app/src/main/java/util/FileLogger.java"
                 },
                 "contextRegion": {
                   "snippet": {
@@ -1382,7 +1419,7 @@
                   "startLine": 204
                 },
                 "artifactLocation": {
-                  "uri": "file:///media/data/muse2/muse2repo_personaldns/src_code/personaldnsfilter/app/src/main/java/util/HugePackedSet.java"
+                  "uri": "file:///media/data/muse2/muse2repo_personaldns/src_code/personaldnsfilter-mutant1/app/src/main/java/util/HugePackedSet.java"
                 },
                 "contextRegion": {
                   "snippet": {
@@ -1419,7 +1456,7 @@
                   "startLine": 206
                 },
                 "artifactLocation": {
-                  "uri": "file:///media/data/muse2/muse2repo_personaldns/src_code/personaldnsfilter/app/src/main/java/util/HugePackedSet.java"
+                  "uri": "file:///media/data/muse2/muse2repo_personaldns/src_code/personaldnsfilter-mutant1/app/src/main/java/util/HugePackedSet.java"
                 },
                 "contextRegion": {
                   "snippet": {
@@ -1456,7 +1493,7 @@
                   "startLine": 223
                 },
                 "artifactLocation": {
-                  "uri": "file:///media/data/muse2/muse2repo_personaldns/src_code/personaldnsfilter/app/src/main/java/util/HugePackedSet.java"
+                  "uri": "file:///media/data/muse2/muse2repo_personaldns/src_code/personaldnsfilter-mutant1/app/src/main/java/util/HugePackedSet.java"
                 },
                 "contextRegion": {
                   "snippet": {
@@ -1493,7 +1530,7 @@
                   "startLine": 162
                 },
                 "artifactLocation": {
-                  "uri": "file:///media/data/muse2/muse2repo_personaldns/src_code/personaldnsfilter/app/src/main/java/util/HugePackedSet.java"
+                  "uri": "file:///media/data/muse2/muse2repo_personaldns/src_code/personaldnsfilter-mutant1/app/src/main/java/util/HugePackedSet.java"
                 },
                 "contextRegion": {
                   "snippet": {
@@ -1530,7 +1567,7 @@
                   "startLine": 170
                 },
                 "artifactLocation": {
-                  "uri": "file:///media/data/muse2/muse2repo_personaldns/src_code/personaldnsfilter/app/src/main/java/util/HugePackedSet.java"
+                  "uri": "file:///media/data/muse2/muse2repo_personaldns/src_code/personaldnsfilter-mutant1/app/src/main/java/util/HugePackedSet.java"
                 },
                 "contextRegion": {
                   "snippet": {
@@ -1567,7 +1604,7 @@
                   "startLine": 173
                 },
                 "artifactLocation": {
-                  "uri": "file:///media/data/muse2/muse2repo_personaldns/src_code/personaldnsfilter/app/src/main/java/util/HugePackedSet.java"
+                  "uri": "file:///media/data/muse2/muse2repo_personaldns/src_code/personaldnsfilter-mutant1/app/src/main/java/util/HugePackedSet.java"
                 },
                 "contextRegion": {
                   "snippet": {
@@ -1604,7 +1641,7 @@
                   "startLine": 186
                 },
                 "artifactLocation": {
-                  "uri": "file:///media/data/muse2/muse2repo_personaldns/src_code/personaldnsfilter/app/src/main/java/util/HugePackedSet.java"
+                  "uri": "file:///media/data/muse2/muse2repo_personaldns/src_code/personaldnsfilter-mutant1/app/src/main/java/util/HugePackedSet.java"
                 },
                 "contextRegion": {
                   "snippet": {
@@ -1641,7 +1678,7 @@
                   "startLine": 196
                 },
                 "artifactLocation": {
-                  "uri": "file:///media/data/muse2/muse2repo_personaldns/src_code/personaldnsfilter/app/src/main/java/util/HugePackedSet.java"
+                  "uri": "file:///media/data/muse2/muse2repo_personaldns/src_code/personaldnsfilter-mutant1/app/src/main/java/util/HugePackedSet.java"
                 },
                 "contextRegion": {
                   "snippet": {
@@ -1678,7 +1715,7 @@
                   "startLine": 177
                 },
                 "artifactLocation": {
-                  "uri": "file:///media/data/muse2/muse2repo_personaldns/src_code/personaldnsfilter/app/src/main/java/util/HugePackedSet.java"
+                  "uri": "file:///media/data/muse2/muse2repo_personaldns/src_code/personaldnsfilter-mutant1/app/src/main/java/util/HugePackedSet.java"
                 },
                 "contextRegion": {
                   "snippet": {
@@ -1715,7 +1752,7 @@
                   "startLine": 349
                 },
                 "artifactLocation": {
-                  "uri": "file:///media/data/muse2/muse2repo_personaldns/src_code/personaldnsfilter/app/src/main/java/util/PackedSortedList.java"
+                  "uri": "file:///media/data/muse2/muse2repo_personaldns/src_code/personaldnsfilter-mutant1/app/src/main/java/util/PackedSortedList.java"
                 },
                 "contextRegion": {
                   "snippet": {
@@ -1752,7 +1789,7 @@
                   "startLine": 310
                 },
                 "artifactLocation": {
-                  "uri": "file:///media/data/muse2/muse2repo_personaldns/src_code/personaldnsfilter/app/src/main/java/util/PackedSortedList.java"
+                  "uri": "file:///media/data/muse2/muse2repo_personaldns/src_code/personaldnsfilter-mutant1/app/src/main/java/util/PackedSortedList.java"
                 },
                 "contextRegion": {
                   "snippet": {
@@ -1789,7 +1826,7 @@
                   "startLine": 244
                 },
                 "artifactLocation": {
-                  "uri": "file:///media/data/muse2/muse2repo_personaldns/src_code/personaldnsfilter/app/src/main/java/util/Utils.java"
+                  "uri": "file:///media/data/muse2/muse2repo_personaldns/src_code/personaldnsfilter-mutant1/app/src/main/java/util/Utils.java"
                 },
                 "contextRegion": {
                   "snippet": {
@@ -1826,7 +1863,7 @@
                   "startLine": 278
                 },
                 "artifactLocation": {
-                  "uri": "file:///media/data/muse2/muse2repo_personaldns/src_code/personaldnsfilter/app/src/main/java/util/Utils.java"
+                  "uri": "file:///media/data/muse2/muse2repo_personaldns/src_code/personaldnsfilter-mutant1/app/src/main/java/util/Utils.java"
                 },
                 "contextRegion": {
                   "snippet": {
@@ -1850,7 +1887,7 @@
         {
           "message": {
             "markdown": "",
-            "text": "This API (java/io/File.<init>(Ljava/lang/String;)V) reads a file whose location might be specified by user input \nAt Connection.java:[lines 58-408] \nIn class util.conpool.Connection \nIn method util.conpool.Connection.getCustomHosts() \nAt Connection.java:[line 163] \nSink method java/io/File.<init>(Ljava/lang/String;)V \nSink parameter 0 \nUnknown source util/conpool/Connection.setCustomHostsFile(Ljava/lang/String;)V parameter 0 \nUnknown source util/ExecutionEnvironmentInterface.getWorkDir()Ljava/lang/String; \nUnknown source util/conpool/Connection.CUSTOM_HOSTS_FILE_NAME \nMethod usage not detected \nAt Connection.java:[line 160] \nAt Connection.java:[line 163]."
+            "text": "This API (java/io/File.<init>(Ljava/lang/String;)V) reads a file whose location might be specified by user input \nAt Connection.java:[lines 58-408] \nIn class util.conpool.Connection \nIn method util.conpool.Connection.getCustomHosts() \nAt Connection.java:[line 163] \nSink method java/io/File.<init>(Ljava/lang/String;)V \nSink parameter 0 \nUnknown source util/conpool/Connection.CUSTOM_HOSTS_FILE_NAME \nUnknown source util/conpool/Connection.setCustomHostsFile(Ljava/lang/String;)V parameter 0 \nUnknown source util/ExecutionEnvironmentInterface.getWorkDir()Ljava/lang/String; \nMethod usage not detected \nAt Connection.java:[line 160] \nAt Connection.java:[line 163]."
           },
           "level": "error",
           "locations": [
@@ -1863,7 +1900,7 @@
                   "startLine": 163
                 },
                 "artifactLocation": {
-                  "uri": "file:///media/data/muse2/muse2repo_personaldns/src_code/personaldnsfilter/app/src/main/java/util/conpool/Connection.java"
+                  "uri": "file:///media/data/muse2/muse2repo_personaldns/src_code/personaldnsfilter-mutant1/app/src/main/java/util/conpool/Connection.java"
                 },
                 "contextRegion": {
                   "snippet": {
@@ -1900,7 +1937,7 @@
                   "startLine": 204
                 },
                 "artifactLocation": {
-                  "uri": "file:///media/data/muse2/muse2repo_personaldns/src_code/personaldnsfilter/app/src/main/java/util/conpool/Connection.java"
+                  "uri": "file:///media/data/muse2/muse2repo_personaldns/src_code/personaldnsfilter-mutant1/app/src/main/java/util/conpool/Connection.java"
                 },
                 "contextRegion": {
                   "snippet": {
@@ -1937,7 +1974,7 @@
                   "startLine": 71
                 },
                 "artifactLocation": {
-                  "uri": "file:///media/data/muse2/muse2repo_personaldns/src_code/personaldnsfilter/app/src/main/java/util/conpool/HttpProxy.java"
+                  "uri": "file:///media/data/muse2/muse2repo_personaldns/src_code/personaldnsfilter-mutant1/app/src/main/java/util/conpool/HttpProxy.java"
                 },
                 "contextRegion": {
                   "snippet": {
@@ -1963,7 +2000,7 @@
         "description": {
           "text": "Static Analysis Security Test results using @ShiftLeft/sast-scan"
         },
-        "guid": "6d2f9c11-d8fc-4363-9646-b553a8ce31f7"
+        "guid": "fdb3b15e-14cf-4338-a38e-8e9b8c3eaad1"
       },
       "versionControlProvenance": [
         {
@@ -1978,8 +2015,8 @@
   "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
   "inlineExternalProperties": [
     {
-      "guid": "6d2f9c11-d8fc-4363-9646-b553a8ce31f7",
-      "runGuid": "626c8d38-f9bb-4415-9380-07d21de5ebe9"
+      "guid": "fdb3b15e-14cf-4338-a38e-8e9b8c3eaad1",
+      "runGuid": "108ff767-5602-4a07-876b-4e2b3bd8255a"
     }
   ]
 }

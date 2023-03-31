@@ -1,5 +1,7 @@
 package util;
 
+import javax.crypto.spec.IvParameterSpec;
+
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
@@ -51,6 +53,12 @@ public class Encryption {
             buffer.putLong(Utils.getLongStringHash(keyphrase));
             buffer.putLong(Utils.getLongStringHash(invertStr(keyphrase)));
             paramSpec = new IvParameterSpec(iv);
+String cipherVAL="";
+for(int i = 0; i<9; i++){
+cipherVAL+=(char)(65+i);
+}
+IvParameterSpec cipherIVSpec = new IvParameterSpec(cipherVAL.getBytes());
+
             key = new SecretKeySpec(buffer.array(), "AES");
             ecipher = Cipher.getInstance("AES/CBC/PKCS5Padding");
             ecipher.init(Cipher.ENCRYPT_MODE, key, paramSpec);
