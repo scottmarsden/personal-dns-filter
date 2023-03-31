@@ -3268,233 +3268,501 @@
     },
     "artifacts" : [ {
       "location" : {
-        "uri" : "app/src/main/java/dnsfilter/remote/RemoteAccessClient.java",
+        "uri" : "app/src/main/java/util/Encryption.java",
         "uriBaseId" : "%SRCROOT%",
         "index" : 0
       }
     }, {
       "location" : {
-        "uri" : "app/src/main/java/dnsfilter/ConfigurationAccess.java",
+        "uri" : "app/src/main/java/util/CipherExample.java",
         "uriBaseId" : "%SRCROOT%",
         "index" : 1
       }
     }, {
       "location" : {
-        "uri" : "app/src/main/java/dnsfilter/android/DNSProxyActivity.java",
+        "uri" : "app/src/main/java/dnsfilter/remote/RemoteAccessClient.java",
         "uriBaseId" : "%SRCROOT%",
         "index" : 2
       }
     }, {
       "location" : {
-        "uri" : "app/src/main/java/dnsfilter/BlockedHosts.java",
+        "uri" : "app/src/main/java/dnsfilter/ConfigurationAccess.java",
         "uriBaseId" : "%SRCROOT%",
         "index" : 3
       }
     }, {
       "location" : {
-        "uri" : "app/src/main/java/dnsfilter/DNSFilterManager.java",
+        "uri" : "app/src/main/java/dnsfilter/android/DNSProxyActivity.java",
         "uriBaseId" : "%SRCROOT%",
         "index" : 4
       }
     }, {
       "location" : {
-        "uri" : "app/src/main/java/util/HugePackedSet.java",
+        "uri" : "app/src/main/java/dnsfilter/BlockedHosts.java",
         "uriBaseId" : "%SRCROOT%",
         "index" : 5
       }
     }, {
       "location" : {
-        "uri" : "app/src/main/java/util/conpool/Connection.java",
+        "uri" : "app/src/main/java/dnsfilter/DNSFilterManager.java",
         "uriBaseId" : "%SRCROOT%",
         "index" : 6
       }
     }, {
       "location" : {
-        "uri" : "app/src/main/java/dnsfilter/DNSFilterProxy.java",
+        "uri" : "app/src/main/java/util/HugePackedSet.java",
         "uriBaseId" : "%SRCROOT%",
         "index" : 7
       }
     }, {
       "location" : {
-        "uri" : "app/src/main/java/util/http/HttpHeader.java",
+        "uri" : "app/src/main/java/util/conpool/Connection.java",
         "uriBaseId" : "%SRCROOT%",
         "index" : 8
       }
     }, {
       "location" : {
-        "uri" : "app/src/main/java/dnsfilter/android/DNSFilterService.java",
+        "uri" : "app/src/main/java/dnsfilter/DNSFilterProxy.java",
         "uriBaseId" : "%SRCROOT%",
         "index" : 9
       }
     }, {
       "location" : {
-        "uri" : "app/src/main/java/dnsfilter/remote/RemoteAccessServer.java",
+        "uri" : "app/src/main/java/util/http/HttpHeader.java",
         "uriBaseId" : "%SRCROOT%",
         "index" : 10
       }
     }, {
       "location" : {
-        "uri" : "app/src/main/java/util/AsyncLogger.java",
+        "uri" : "app/src/main/java/dnsfilter/android/DNSFilterService.java",
         "uriBaseId" : "%SRCROOT%",
         "index" : 11
       }
     }, {
       "location" : {
-        "uri" : "app/src/main/java/util/Encryption.java",
+        "uri" : "app/src/main/java/dnsfilter/remote/RemoteAccessServer.java",
         "uriBaseId" : "%SRCROOT%",
         "index" : 12
       }
     }, {
       "location" : {
-        "uri" : "app/src/main/java/util/conpool/PooledConnectionInputStream.java",
+        "uri" : "app/src/main/java/util/AsyncLogger.java",
         "uriBaseId" : "%SRCROOT%",
         "index" : 13
       }
     }, {
       "location" : {
-        "uri" : "app/src/main/java/util/conpool/PooledConnectionOutputStream.java",
+        "uri" : "app/src/main/java/util/conpool/PooledConnectionInputStream.java",
         "uriBaseId" : "%SRCROOT%",
         "index" : 14
       }
     }, {
       "location" : {
-        "uri" : "file:/media/data/Android/Sdk/platforms/android-28/android.jar/java/util/Collection.class",
+        "uri" : "app/src/main/java/util/conpool/PooledConnectionOutputStream.java",
+        "uriBaseId" : "%SRCROOT%",
         "index" : 15
       }
     }, {
       "location" : {
-        "uri" : "file:/media/data/Android/Sdk/platforms/android-28/android.jar/java/util/Set.class",
+        "uri" : "file:/media/data/Android/Sdk/platforms/android-28/android.jar/java/util/Collection.class",
         "index" : 16
+      }
+    }, {
+      "location" : {
+        "uri" : "file:/media/data/Android/Sdk/platforms/android-28/android.jar/java/util/Set.class",
+        "index" : 17
       }
     }, {
       "location" : {
         "uri" : "app/src/main/java/ip/UDPPacket.java",
         "uriBaseId" : "%SRCROOT%",
-        "index" : 17
+        "index" : 18
       }
     }, {
       "location" : {
         "uri" : "app/src/main/java/ip/IPPacket.java",
         "uriBaseId" : "%SRCROOT%",
-        "index" : 18
+        "index" : 19
       }
     }, {
       "location" : {
         "uri" : "app/src/main/java/util/AsyncBulkLogger.java",
         "uriBaseId" : "%SRCROOT%",
-        "index" : 19
+        "index" : 20
       }
     }, {
       "location" : {
         "uri" : "app/src/main/java/util/LoggerInterface.java",
         "uriBaseId" : "%SRCROOT%",
-        "index" : 20
+        "index" : 21
       }
     }, {
       "location" : {
         "uri" : "app/src/main/java/util/FileLogger.java",
         "uriBaseId" : "%SRCROOT%",
-        "index" : 21
+        "index" : 22
       }
     }, {
       "location" : {
         "uri" : "app/src/main/java/util/PaddingCipherOutputStream.java",
         "uriBaseId" : "%SRCROOT%",
-        "index" : 22
-      }
-    }, {
-      "location" : {
-        "uri" : "file:/media/data/Android/Sdk/platforms/android-28/android.jar/java/io/Closeable.class",
         "index" : 23
       }
     }, {
       "location" : {
-        "uri" : "file:/media/data/Android/Sdk/platforms/android-28/android.jar/java/io/OutputStream.class",
+        "uri" : "file:/media/data/Android/Sdk/platforms/android-28/android.jar/java/io/Closeable.class",
         "index" : 24
       }
     }, {
       "location" : {
-        "uri" : "file:/media/data/Android/Sdk/platforms/android-28/android.jar/java/lang/AutoCloseable.class",
+        "uri" : "file:/media/data/Android/Sdk/platforms/android-28/android.jar/java/io/OutputStream.class",
         "index" : 25
       }
     }, {
       "location" : {
-        "uri" : "file:/media/data/Android/Sdk/platforms/android-28/android.jar/java/lang/Object.class",
+        "uri" : "file:/media/data/Android/Sdk/platforms/android-28/android.jar/java/lang/AutoCloseable.class",
         "index" : 26
       }
     }, {
       "location" : {
-        "uri" : "file:/media/data/Android/Sdk/platforms/android-28/android.jar/java/lang/Runnable.class",
+        "uri" : "file:/media/data/Android/Sdk/platforms/android-28/android.jar/java/lang/Object.class",
         "index" : 27
+      }
+    }, {
+      "location" : {
+        "uri" : "file:/media/data/Android/Sdk/platforms/android-28/android.jar/java/lang/Runnable.class",
+        "index" : 28
       }
     }, {
       "location" : {
         "uri" : "app/src/main/java/dnsfilter/android/AppSelectorView.java",
         "uriBaseId" : "%SRCROOT%",
-        "index" : 28
-      }
-    }, {
-      "location" : {
-        "uri" : "file:/media/data/Android/Sdk/platforms/android-28/android.jar/android/graphics/drawable/BitmapDrawable.class",
         "index" : 29
       }
     }, {
       "location" : {
-        "uri" : "file:/media/data/Android/Sdk/platforms/android-28/android.jar/android/net/NetworkInfo.class",
+        "uri" : "file:/media/data/Android/Sdk/platforms/android-28/android.jar/android/graphics/drawable/BitmapDrawable.class",
         "index" : 30
       }
     }, {
       "location" : {
-        "uri" : "file:/media/data/Android/Sdk/platforms/android-28/android.jar/android/app/Notification$Builder.class",
+        "uri" : "file:/media/data/Android/Sdk/platforms/android-28/android.jar/android/net/NetworkInfo.class",
         "index" : 31
       }
     }, {
       "location" : {
-        "uri" : "file:/media/data/Android/Sdk/platforms/android-28/android.jar/android/app/Notification.class",
+        "uri" : "file:/media/data/Android/Sdk/platforms/android-28/android.jar/android/app/Notification$Builder.class",
         "index" : 32
       }
     }, {
       "location" : {
-        "uri" : "file:/media/data/Android/Sdk/platforms/android-28/android.jar/android/text/Html.class",
+        "uri" : "file:/media/data/Android/Sdk/platforms/android-28/android.jar/android/app/Notification.class",
         "index" : 33
       }
     }, {
       "location" : {
-        "uri" : "file:/media/data/Android/Sdk/platforms/android-28/android.jar/android/content/res/Resources.class",
+        "uri" : "file:/media/data/Android/Sdk/platforms/android-28/android.jar/android/text/Html.class",
         "index" : 34
+      }
+    }, {
+      "location" : {
+        "uri" : "file:/media/data/Android/Sdk/platforms/android-28/android.jar/android/content/res/Resources.class",
+        "index" : 35
       }
     }, {
       "location" : {
         "uri" : "app/src/main/java/dnsfilter/DNSServer.java",
         "uriBaseId" : "%SRCROOT%",
-        "index" : 35
+        "index" : 36
       }
     }, {
       "location" : {
         "uri" : "app/src/main/java/dnsfilter/DNSResponsePatcher.java",
         "uriBaseId" : "%SRCROOT%",
-        "index" : 36
+        "index" : 37
       }
     }, {
       "location" : {
         "uri" : "app/src/main/java/util/Utils.java",
         "uriBaseId" : "%SRCROOT%",
-        "index" : 37
+        "index" : 38
       }
     }, {
       "location" : {
         "uri" : "app/src/main/java/dnsfilter/android/FilterConfig.java",
         "uriBaseId" : "%SRCROOT%",
-        "index" : 38
+        "index" : 39
       }
     }, {
       "location" : {
         "uri" : "app/src/main/java/util/LRUCache.java",
         "uriBaseId" : "%SRCROOT%",
-        "index" : 39
+        "index" : 40
       }
     } ],
     "results" : [ {
+      "ruleId" : "java/weak-cryptographic-algorithm",
+      "ruleIndex" : 8,
+      "message" : {
+        "text" : "Cryptographic algorithm [\"des\"](1) is weak and should not be used."
+      },
+      "locations" : [ {
+        "physicalLocation" : {
+          "artifactLocation" : {
+            "uri" : "app/src/main/java/util/Encryption.java",
+            "uriBaseId" : "%SRCROOT%",
+            "index" : 0
+          },
+          "region" : {
+            "startLine" : 61,
+            "startColumn" : 25,
+            "endColumn" : 78
+          }
+        }
+      } ],
+      "partialFingerprints" : {
+        "primaryLocationLineHash" : "87beea4bab6dcb15:1",
+        "primaryLocationStartColumnFingerprint" : "24"
+      },
+      "codeFlows" : [ {
+        "threadFlows" : [ {
+          "locations" : [ {
+            "location" : {
+              "physicalLocation" : {
+                "artifactLocation" : {
+                  "uri" : "app/src/main/java/util/Encryption.java",
+                  "uriBaseId" : "%SRCROOT%",
+                  "index" : 0
+                },
+                "region" : {
+                  "startLine" : 61,
+                  "startColumn" : 44,
+                  "endColumn" : 49
+                }
+              },
+              "message" : {
+                "text" : "\"des\" : String"
+              }
+            }
+          }, {
+            "location" : {
+              "physicalLocation" : {
+                "artifactLocation" : {
+                  "uri" : "app/src/main/java/util/Encryption.java",
+                  "uriBaseId" : "%SRCROOT%",
+                  "index" : 0
+                },
+                "region" : {
+                  "startLine" : 61,
+                  "startColumn" : 44,
+                  "endColumn" : 77
+                }
+              },
+              "message" : {
+                "text" : "toUpperCase(...)"
+              }
+            }
+          } ]
+        } ]
+      } ],
+      "relatedLocations" : [ {
+        "id" : 1,
+        "physicalLocation" : {
+          "artifactLocation" : {
+            "uri" : "app/src/main/java/util/Encryption.java",
+            "uriBaseId" : "%SRCROOT%",
+            "index" : 0
+          },
+          "region" : {
+            "startLine" : 61,
+            "startColumn" : 44,
+            "endColumn" : 49
+          }
+        },
+        "message" : {
+          "text" : "\"des\""
+        }
+      } ]
+    }, {
+      "ruleId" : "java/weak-cryptographic-algorithm",
+      "ruleIndex" : 8,
+      "message" : {
+        "text" : "Cryptographic algorithm [\"des\"](1) is weak and should not be used."
+      },
+      "locations" : [ {
+        "physicalLocation" : {
+          "artifactLocation" : {
+            "uri" : "app/src/main/java/util/Encryption.java",
+            "uriBaseId" : "%SRCROOT%",
+            "index" : 0
+          },
+          "region" : {
+            "startLine" : 62,
+            "startColumn" : 25,
+            "endColumn" : 50
+          }
+        }
+      } ],
+      "partialFingerprints" : {
+        "primaryLocationLineHash" : "cccc6c64737525f9:1",
+        "primaryLocationStartColumnFingerprint" : "24"
+      },
+      "relatedLocations" : [ {
+        "id" : 1,
+        "physicalLocation" : {
+          "artifactLocation" : {
+            "uri" : "app/src/main/java/util/Encryption.java",
+            "uriBaseId" : "%SRCROOT%",
+            "index" : 0
+          },
+          "region" : {
+            "startLine" : 62,
+            "startColumn" : 44,
+            "endColumn" : 49
+          }
+        },
+        "message" : {
+          "text" : "\"des\""
+        }
+      } ]
+    }, {
+      "ruleId" : "java/weak-cryptographic-algorithm",
+      "ruleIndex" : 8,
+      "message" : {
+        "text" : "Cryptographic algorithm [\"DES\"](1) is weak and should not be used."
+      },
+      "locations" : [ {
+        "physicalLocation" : {
+          "artifactLocation" : {
+            "uri" : "app/src/main/java/util/Encryption.java",
+            "uriBaseId" : "%SRCROOT%",
+            "index" : 0
+          },
+          "region" : {
+            "startLine" : 64,
+            "startColumn" : 25,
+            "endColumn" : 100
+          }
+        }
+      } ],
+      "partialFingerprints" : {
+        "primaryLocationLineHash" : "983c7800a90efb25:1",
+        "primaryLocationStartColumnFingerprint" : "24"
+      },
+      "codeFlows" : [ {
+        "threadFlows" : [ {
+          "locations" : [ {
+            "location" : {
+              "physicalLocation" : {
+                "artifactLocation" : {
+                  "uri" : "app/src/main/java/util/CipherExample.java",
+                  "uriBaseId" : "%SRCROOT%",
+                  "index" : 1
+                },
+                "region" : {
+                  "startLine" : 17,
+                  "startColumn" : 22,
+                  "endColumn" : 27
+                }
+              },
+              "message" : {
+                "text" : "\"DES\" : String"
+              }
+            }
+          }, {
+            "location" : {
+              "physicalLocation" : {
+                "artifactLocation" : {
+                  "uri" : "app/src/main/java/util/CipherExample.java",
+                  "uriBaseId" : "%SRCROOT%",
+                  "index" : 1
+                },
+                "region" : {
+                  "startLine" : 17,
+                  "startColumn" : 9,
+                  "endColumn" : 19
+                }
+              },
+              "message" : {
+                "text" : "this <.field> [post update] [cipherName] : String"
+              }
+            }
+          }, {
+            "location" : {
+              "physicalLocation" : {
+                "artifactLocation" : {
+                  "uri" : "app/src/main/java/util/CipherExample.java",
+                  "uriBaseId" : "%SRCROOT%",
+                  "index" : 1
+                },
+                "region" : {
+                  "startLine" : 18,
+                  "startColumn" : 16,
+                  "endColumn" : 20
+                }
+              },
+              "message" : {
+                "text" : "this [cipherName] : String"
+              }
+            }
+          }, {
+            "location" : {
+              "physicalLocation" : {
+                "artifactLocation" : {
+                  "uri" : "app/src/main/java/util/Encryption.java",
+                  "uriBaseId" : "%SRCROOT%",
+                  "index" : 0
+                },
+                "region" : {
+                  "startLine" : 64,
+                  "startColumn" : 44,
+                  "endColumn" : 83
+                }
+              },
+              "message" : {
+                "text" : "methodB(...) [cipherName] : String"
+              }
+            }
+          }, {
+            "location" : {
+              "physicalLocation" : {
+                "artifactLocation" : {
+                  "uri" : "app/src/main/java/util/Encryption.java",
+                  "uriBaseId" : "%SRCROOT%",
+                  "index" : 0
+                },
+                "region" : {
+                  "startLine" : 64,
+                  "startColumn" : 44,
+                  "endColumn" : 99
+                }
+              },
+              "message" : {
+                "text" : "getCipherName(...)"
+              }
+            }
+          } ]
+        } ]
+      } ],
+      "relatedLocations" : [ {
+        "id" : 1,
+        "physicalLocation" : {
+          "artifactLocation" : {
+            "uri" : "app/src/main/java/util/CipherExample.java",
+            "uriBaseId" : "%SRCROOT%",
+            "index" : 1
+          },
+          "region" : {
+            "startLine" : 17,
+            "startColumn" : 22,
+            "endColumn" : 27
+          }
+        },
+        "message" : {
+          "text" : "\"DES\""
+        }
+      } ]
+    }, {
       "ruleId" : "java/unsafe-deserialization",
       "ruleIndex" : 19,
       "message" : {
@@ -3505,7 +3773,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/dnsfilter/remote/RemoteAccessClient.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 0
+            "index" : 2
           },
           "region" : {
             "startLine" : 230,
@@ -3526,7 +3794,7 @@
                 "artifactLocation" : {
                   "uri" : "app/src/main/java/dnsfilter/remote/RemoteAccessClient.java",
                   "uriBaseId" : "%SRCROOT%",
-                  "index" : 0
+                  "index" : 2
                 },
                 "region" : {
                   "startLine" : 123,
@@ -3544,7 +3812,7 @@
                 "artifactLocation" : {
                   "uri" : "app/src/main/java/dnsfilter/remote/RemoteAccessClient.java",
                   "uriBaseId" : "%SRCROOT%",
-                  "index" : 0
+                  "index" : 2
                 },
                 "region" : {
                   "startLine" : 123,
@@ -3562,7 +3830,7 @@
                 "artifactLocation" : {
                   "uri" : "app/src/main/java/dnsfilter/remote/RemoteAccessClient.java",
                   "uriBaseId" : "%SRCROOT%",
-                  "index" : 0
+                  "index" : 2
                 },
                 "region" : {
                   "startLine" : 143,
@@ -3580,7 +3848,7 @@
                 "artifactLocation" : {
                   "uri" : "app/src/main/java/dnsfilter/remote/RemoteAccessClient.java",
                   "uriBaseId" : "%SRCROOT%",
-                  "index" : 0
+                  "index" : 2
                 },
                 "region" : {
                   "startLine" : 71,
@@ -3598,7 +3866,7 @@
                 "artifactLocation" : {
                   "uri" : "app/src/main/java/dnsfilter/remote/RemoteAccessClient.java",
                   "uriBaseId" : "%SRCROOT%",
-                  "index" : 0
+                  "index" : 2
                 },
                 "region" : {
                   "startLine" : 73,
@@ -3616,7 +3884,7 @@
                 "artifactLocation" : {
                   "uri" : "app/src/main/java/dnsfilter/remote/RemoteAccessClient.java",
                   "uriBaseId" : "%SRCROOT%",
-                  "index" : 0
+                  "index" : 2
                 },
                 "region" : {
                   "startLine" : 73,
@@ -3634,7 +3902,7 @@
                 "artifactLocation" : {
                   "uri" : "app/src/main/java/dnsfilter/remote/RemoteAccessClient.java",
                   "uriBaseId" : "%SRCROOT%",
-                  "index" : 0
+                  "index" : 2
                 },
                 "region" : {
                   "startLine" : 66,
@@ -3652,7 +3920,7 @@
                 "artifactLocation" : {
                   "uri" : "app/src/main/java/dnsfilter/ConfigurationAccess.java",
                   "uriBaseId" : "%SRCROOT%",
-                  "index" : 1
+                  "index" : 3
                 },
                 "region" : {
                   "startLine" : 28,
@@ -3670,7 +3938,7 @@
                 "artifactLocation" : {
                   "uri" : "app/src/main/java/dnsfilter/android/DNSProxyActivity.java",
                   "uriBaseId" : "%SRCROOT%",
-                  "index" : 2
+                  "index" : 4
                 },
                 "region" : {
                   "startLine" : 1191,
@@ -3688,7 +3956,7 @@
                 "artifactLocation" : {
                   "uri" : "app/src/main/java/dnsfilter/android/DNSProxyActivity.java",
                   "uriBaseId" : "%SRCROOT%",
-                  "index" : 2
+                  "index" : 4
                 },
                 "region" : {
                   "startLine" : 1149,
@@ -3706,7 +3974,7 @@
                 "artifactLocation" : {
                   "uri" : "app/src/main/java/dnsfilter/android/DNSProxyActivity.java",
                   "uriBaseId" : "%SRCROOT%",
-                  "index" : 2
+                  "index" : 4
                 },
                 "region" : {
                   "startLine" : 1150,
@@ -3724,7 +3992,7 @@
                 "artifactLocation" : {
                   "uri" : "app/src/main/java/dnsfilter/android/DNSProxyActivity.java",
                   "uriBaseId" : "%SRCROOT%",
-                  "index" : 2
+                  "index" : 4
                 },
                 "region" : {
                   "startLine" : 568,
@@ -3742,7 +4010,7 @@
                 "artifactLocation" : {
                   "uri" : "app/src/main/java/dnsfilter/remote/RemoteAccessClient.java",
                   "uriBaseId" : "%SRCROOT%",
-                  "index" : 0
+                  "index" : 2
                 },
                 "region" : {
                   "startLine" : 220,
@@ -3760,7 +4028,7 @@
                 "artifactLocation" : {
                   "uri" : "app/src/main/java/dnsfilter/remote/RemoteAccessClient.java",
                   "uriBaseId" : "%SRCROOT%",
-                  "index" : 0
+                  "index" : 2
                 },
                 "region" : {
                   "startLine" : 224,
@@ -3778,7 +4046,7 @@
                 "artifactLocation" : {
                   "uri" : "app/src/main/java/dnsfilter/remote/RemoteAccessClient.java",
                   "uriBaseId" : "%SRCROOT%",
-                  "index" : 0
+                  "index" : 2
                 },
                 "region" : {
                   "startLine" : 224,
@@ -3796,7 +4064,7 @@
                 "artifactLocation" : {
                   "uri" : "app/src/main/java/dnsfilter/remote/RemoteAccessClient.java",
                   "uriBaseId" : "%SRCROOT%",
-                  "index" : 0
+                  "index" : 2
                 },
                 "region" : {
                   "startLine" : 230,
@@ -3817,7 +4085,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/dnsfilter/remote/RemoteAccessClient.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 0
+            "index" : 2
           },
           "region" : {
             "startLine" : 123,
@@ -3840,7 +4108,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/dnsfilter/BlockedHosts.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 3
+            "index" : 5
           },
           "region" : {
             "startLine" : 106,
@@ -3859,7 +4127,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/dnsfilter/DNSFilterManager.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 4
+            "index" : 6
           },
           "region" : {
             "startLine" : 1167,
@@ -3876,7 +4144,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/dnsfilter/DNSFilterManager.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 4
+            "index" : 6
           },
           "region" : {
             "startLine" : 1177,
@@ -3899,7 +4167,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/dnsfilter/DNSFilterManager.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 4
+            "index" : 6
           },
           "region" : {
             "startLine" : 260,
@@ -3923,7 +4191,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/dnsfilter/DNSFilterManager.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 4
+            "index" : 6
           },
           "region" : {
             "startLine" : 347,
@@ -3947,7 +4215,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/dnsfilter/DNSFilterManager.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 4
+            "index" : 6
           },
           "region" : {
             "startLine" : 358,
@@ -3971,7 +4239,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/dnsfilter/DNSFilterManager.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 4
+            "index" : 6
           },
           "region" : {
             "startLine" : 636,
@@ -3995,7 +4263,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/dnsfilter/DNSFilterManager.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 4
+            "index" : 6
           },
           "region" : {
             "startLine" : 910,
@@ -4019,7 +4287,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/dnsfilter/DNSFilterManager.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 4
+            "index" : 6
           },
           "region" : {
             "startLine" : 960,
@@ -4043,7 +4311,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/dnsfilter/DNSFilterManager.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 4
+            "index" : 6
           },
           "region" : {
             "startLine" : 1101,
@@ -4067,7 +4335,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/util/HugePackedSet.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 5
+            "index" : 7
           },
           "region" : {
             "startLine" : 174,
@@ -4091,7 +4359,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/util/HugePackedSet.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 5
+            "index" : 7
           },
           "region" : {
             "startLine" : 187,
@@ -4115,7 +4383,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/util/conpool/Connection.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 6
+            "index" : 8
           },
           "region" : {
             "startLine" : 309,
@@ -4139,7 +4407,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/dnsfilter/DNSFilterManager.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 4
+            "index" : 6
           },
           "region" : {
             "startLine" : 1335,
@@ -4163,7 +4431,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/dnsfilter/DNSFilterProxy.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 7
+            "index" : 9
           },
           "region" : {
             "startLine" : 57,
@@ -4187,7 +4455,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/util/http/HttpHeader.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 8
+            "index" : 10
           },
           "region" : {
             "startLine" : 276,
@@ -4211,7 +4479,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/dnsfilter/android/DNSFilterService.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 9
+            "index" : 11
           },
           "region" : {
             "startLine" : 349,
@@ -4235,7 +4503,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/dnsfilter/remote/RemoteAccessServer.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 10
+            "index" : 12
           },
           "region" : {
             "startLine" : 65,
@@ -4259,7 +4527,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/util/AsyncLogger.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 11
+            "index" : 13
           },
           "region" : {
             "startLine" : 137,
@@ -4283,7 +4551,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/util/AsyncLogger.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 11
+            "index" : 13
           },
           "region" : {
             "startLine" : 138,
@@ -4300,23 +4568,115 @@
       "ruleId" : "java/local-variable-is-never-read",
       "ruleIndex" : 33,
       "message" : {
-        "text" : "Variable 'IvParameterSpec cipherIVSpec' is never read."
+        "text" : "Variable 'Cipher ciPHerExample1' is never read."
       },
       "locations" : [ {
         "physicalLocation" : {
           "artifactLocation" : {
             "uri" : "app/src/main/java/util/Encryption.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 12
+            "index" : 0
           },
           "region" : {
             "startLine" : 60,
-            "endColumn" : 74
+            "endColumn" : 69
           }
         }
       } ],
       "partialFingerprints" : {
-        "primaryLocationLineHash" : "b134d06374bb87b9:1",
+        "primaryLocationLineHash" : "b3bdb05965945103:1",
+        "primaryLocationStartColumnFingerprint" : "0"
+      }
+    }, {
+      "ruleId" : "java/local-variable-is-never-read",
+      "ruleIndex" : 33,
+      "message" : {
+        "text" : "Variable 'Cipher ciPHerExample2' is never read."
+      },
+      "locations" : [ {
+        "physicalLocation" : {
+          "artifactLocation" : {
+            "uri" : "app/src/main/java/util/Encryption.java",
+            "uriBaseId" : "%SRCROOT%",
+            "index" : 0
+          },
+          "region" : {
+            "startLine" : 61,
+            "endColumn" : 79
+          }
+        }
+      } ],
+      "partialFingerprints" : {
+        "primaryLocationLineHash" : "87beea4bab6dcb15:1",
+        "primaryLocationStartColumnFingerprint" : "0"
+      }
+    }, {
+      "ruleId" : "java/local-variable-is-never-read",
+      "ruleIndex" : 33,
+      "message" : {
+        "text" : "Variable 'Cipher ciPHerExample3' is never read."
+      },
+      "locations" : [ {
+        "physicalLocation" : {
+          "artifactLocation" : {
+            "uri" : "app/src/main/java/util/Encryption.java",
+            "uriBaseId" : "%SRCROOT%",
+            "index" : 0
+          },
+          "region" : {
+            "startLine" : 62,
+            "endColumn" : 51
+          }
+        }
+      } ],
+      "partialFingerprints" : {
+        "primaryLocationLineHash" : "cccc6c64737525f9:1",
+        "primaryLocationStartColumnFingerprint" : "0"
+      }
+    }, {
+      "ruleId" : "java/local-variable-is-never-read",
+      "ruleIndex" : 33,
+      "message" : {
+        "text" : "Variable 'Cipher ciPHerExample4' is never read."
+      },
+      "locations" : [ {
+        "physicalLocation" : {
+          "artifactLocation" : {
+            "uri" : "app/src/main/java/util/Encryption.java",
+            "uriBaseId" : "%SRCROOT%",
+            "index" : 0
+          },
+          "region" : {
+            "startLine" : 63,
+            "endColumn" : 69
+          }
+        }
+      } ],
+      "partialFingerprints" : {
+        "primaryLocationLineHash" : "d024fd1e6d2c17b3:1",
+        "primaryLocationStartColumnFingerprint" : "0"
+      }
+    }, {
+      "ruleId" : "java/local-variable-is-never-read",
+      "ruleIndex" : 33,
+      "message" : {
+        "text" : "Variable 'Cipher ciPHerExample5' is never read."
+      },
+      "locations" : [ {
+        "physicalLocation" : {
+          "artifactLocation" : {
+            "uri" : "app/src/main/java/util/Encryption.java",
+            "uriBaseId" : "%SRCROOT%",
+            "index" : 0
+          },
+          "region" : {
+            "startLine" : 64,
+            "endColumn" : 101
+          }
+        }
+      } ],
+      "partialFingerprints" : {
+        "primaryLocationLineHash" : "983c7800a90efb25:1",
         "primaryLocationStartColumnFingerprint" : "0"
       }
     }, {
@@ -4330,7 +4690,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/util/conpool/Connection.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 6
+            "index" : 8
           },
           "region" : {
             "startLine" : 310,
@@ -4354,7 +4714,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/util/conpool/PooledConnectionInputStream.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 13
+            "index" : 14
           },
           "region" : {
             "startLine" : 46,
@@ -4378,7 +4738,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/util/conpool/PooledConnectionInputStream.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 13
+            "index" : 14
           },
           "region" : {
             "startLine" : 63,
@@ -4402,7 +4762,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/util/conpool/PooledConnectionOutputStream.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 14
+            "index" : 15
           },
           "region" : {
             "startLine" : 46,
@@ -4426,7 +4786,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/util/conpool/PooledConnectionOutputStream.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 14
+            "index" : 15
           },
           "region" : {
             "startLine" : 54,
@@ -4450,7 +4810,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/util/conpool/PooledConnectionOutputStream.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 14
+            "index" : 15
           },
           "region" : {
             "startLine" : 63,
@@ -4474,7 +4834,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/util/conpool/PooledConnectionOutputStream.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 14
+            "index" : 15
           },
           "region" : {
             "startLine" : 75,
@@ -4498,7 +4858,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/util/http/HttpHeader.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 8
+            "index" : 10
           },
           "region" : {
             "startLine" : 184,
@@ -4522,7 +4882,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/util/http/HttpHeader.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 8
+            "index" : 10
           },
           "region" : {
             "startLine" : 190,
@@ -4546,7 +4906,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/dnsfilter/BlockedHosts.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 3
+            "index" : 5
           },
           "region" : {
             "startLine" : 368,
@@ -4564,7 +4924,7 @@
         "physicalLocation" : {
           "artifactLocation" : {
             "uri" : "file:/media/data/Android/Sdk/platforms/android-28/android.jar/java/util/Collection.class",
-            "index" : 15
+            "index" : 16
           }
         },
         "message" : {
@@ -4575,7 +4935,7 @@
         "physicalLocation" : {
           "artifactLocation" : {
             "uri" : "file:/media/data/Android/Sdk/platforms/android-28/android.jar/java/util/Set.class",
-            "index" : 16
+            "index" : 17
           }
         },
         "message" : {
@@ -4593,7 +4953,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/dnsfilter/DNSFilterManager.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 4
+            "index" : 6
           },
           "region" : {
             "startLine" : 1021,
@@ -4612,7 +4972,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/dnsfilter/ConfigurationAccess.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 1
+            "index" : 3
           },
           "region" : {
             "startLine" : 53,
@@ -4635,7 +4995,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/dnsfilter/remote/RemoteAccessClient.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 0
+            "index" : 2
           },
           "region" : {
             "startLine" : 193,
@@ -4654,7 +5014,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/dnsfilter/ConfigurationAccess.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 1
+            "index" : 3
           },
           "region" : {
             "startLine" : 37,
@@ -4677,7 +5037,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/ip/UDPPacket.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 17
+            "index" : 18
           },
           "region" : {
             "startLine" : 105,
@@ -4696,7 +5056,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/ip/IPPacket.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 18
+            "index" : 19
           },
           "region" : {
             "startLine" : 255,
@@ -4719,7 +5079,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/ip/UDPPacket.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 17
+            "index" : 18
           },
           "region" : {
             "startLine" : 101,
@@ -4738,7 +5098,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/ip/IPPacket.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 18
+            "index" : 19
           },
           "region" : {
             "startLine" : 259,
@@ -4761,7 +5121,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/ip/UDPPacket.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 17
+            "index" : 18
           },
           "region" : {
             "startLine" : 93,
@@ -4780,7 +5140,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/ip/IPPacket.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 18
+            "index" : 19
           },
           "region" : {
             "startLine" : 242,
@@ -4803,7 +5163,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/ip/UDPPacket.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 17
+            "index" : 18
           },
           "region" : {
             "startLine" : 58,
@@ -4822,7 +5182,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/ip/IPPacket.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 18
+            "index" : 19
           },
           "region" : {
             "startLine" : 167,
@@ -4845,7 +5205,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/util/AsyncBulkLogger.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 19
+            "index" : 20
           },
           "region" : {
             "startLine" : 58,
@@ -4864,7 +5224,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/util/LoggerInterface.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 20
+            "index" : 21
           },
           "region" : {
             "startLine" : 34,
@@ -4887,7 +5247,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/util/AsyncLogger.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 11
+            "index" : 13
           },
           "region" : {
             "startLine" : 61,
@@ -4906,7 +5266,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/util/LoggerInterface.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 20
+            "index" : 21
           },
           "region" : {
             "startLine" : 34,
@@ -4929,7 +5289,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/util/FileLogger.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 21
+            "index" : 22
           },
           "region" : {
             "startLine" : 95,
@@ -4948,7 +5308,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/util/LoggerInterface.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 20
+            "index" : 21
           },
           "region" : {
             "startLine" : 34,
@@ -4971,7 +5331,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/util/PaddingCipherOutputStream.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 22
+            "index" : 23
           },
           "region" : {
             "startLine" : 81,
@@ -4989,7 +5349,7 @@
         "physicalLocation" : {
           "artifactLocation" : {
             "uri" : "file:/media/data/Android/Sdk/platforms/android-28/android.jar/java/io/Closeable.class",
-            "index" : 23
+            "index" : 24
           }
         },
         "message" : {
@@ -5000,7 +5360,7 @@
         "physicalLocation" : {
           "artifactLocation" : {
             "uri" : "file:/media/data/Android/Sdk/platforms/android-28/android.jar/java/io/OutputStream.class",
-            "index" : 24
+            "index" : 25
           }
         },
         "message" : {
@@ -5011,7 +5371,7 @@
         "physicalLocation" : {
           "artifactLocation" : {
             "uri" : "file:/media/data/Android/Sdk/platforms/android-28/android.jar/java/lang/AutoCloseable.class",
-            "index" : 25
+            "index" : 26
           }
         },
         "message" : {
@@ -5029,7 +5389,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/util/http/HttpHeader.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 8
+            "index" : 10
           },
           "region" : {
             "startLine" : 154,
@@ -5047,7 +5407,7 @@
         "physicalLocation" : {
           "artifactLocation" : {
             "uri" : "file:/media/data/Android/Sdk/platforms/android-28/android.jar/java/lang/Object.class",
-            "index" : 26
+            "index" : 27
           }
         },
         "message" : {
@@ -5065,7 +5425,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/dnsfilter/android/DNSProxyActivity.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 2
+            "index" : 4
           },
           "region" : {
             "startLine" : 1612,
@@ -5083,7 +5443,7 @@
         "physicalLocation" : {
           "artifactLocation" : {
             "uri" : "file:/media/data/Android/Sdk/platforms/android-28/android.jar/java/lang/Runnable.class",
-            "index" : 27
+            "index" : 28
           }
         },
         "message" : {
@@ -5101,7 +5461,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/dnsfilter/android/AppSelectorView.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 28
+            "index" : 29
           },
           "region" : {
             "startLine" : 187,
@@ -5119,7 +5479,7 @@
         "physicalLocation" : {
           "artifactLocation" : {
             "uri" : "file:/media/data/Android/Sdk/platforms/android-28/android.jar/android/graphics/drawable/BitmapDrawable.class",
-            "index" : 29
+            "index" : 30
           }
         },
         "message" : {
@@ -5137,7 +5497,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/dnsfilter/android/DNSFilterService.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 9
+            "index" : 11
           },
           "region" : {
             "startLine" : 330,
@@ -5155,7 +5515,7 @@
         "physicalLocation" : {
           "artifactLocation" : {
             "uri" : "file:/media/data/Android/Sdk/platforms/android-28/android.jar/android/net/NetworkInfo.class",
-            "index" : 30
+            "index" : 31
           }
         },
         "message" : {
@@ -5173,7 +5533,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/dnsfilter/android/DNSFilterService.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 9
+            "index" : 11
           },
           "region" : {
             "startLine" : 633,
@@ -5191,7 +5551,7 @@
         "physicalLocation" : {
           "artifactLocation" : {
             "uri" : "file:/media/data/Android/Sdk/platforms/android-28/android.jar/android/app/Notification$Builder.class",
-            "index" : 31
+            "index" : 32
           }
         },
         "message" : {
@@ -5209,7 +5569,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/dnsfilter/android/DNSFilterService.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 9
+            "index" : 11
           },
           "region" : {
             "startLine" : 641,
@@ -5227,7 +5587,7 @@
         "physicalLocation" : {
           "artifactLocation" : {
             "uri" : "file:/media/data/Android/Sdk/platforms/android-28/android.jar/android/app/Notification.class",
-            "index" : 32
+            "index" : 33
           }
         },
         "message" : {
@@ -5245,7 +5605,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/dnsfilter/android/DNSProxyActivity.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 2
+            "index" : 4
           },
           "region" : {
             "startLine" : 206,
@@ -5263,7 +5623,7 @@
         "physicalLocation" : {
           "artifactLocation" : {
             "uri" : "file:/media/data/Android/Sdk/platforms/android-28/android.jar/android/text/Html.class",
-            "index" : 33
+            "index" : 34
           }
         },
         "message" : {
@@ -5281,7 +5641,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/dnsfilter/android/DNSProxyActivity.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 2
+            "index" : 4
           },
           "region" : {
             "startLine" : 400,
@@ -5299,7 +5659,7 @@
         "physicalLocation" : {
           "artifactLocation" : {
             "uri" : "file:/media/data/Android/Sdk/platforms/android-28/android.jar/android/content/res/Resources.class",
-            "index" : 34
+            "index" : 35
           }
         },
         "message" : {
@@ -5317,7 +5677,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/dnsfilter/android/DNSProxyActivity.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 2
+            "index" : 4
           },
           "region" : {
             "startLine" : 402,
@@ -5335,7 +5695,7 @@
         "physicalLocation" : {
           "artifactLocation" : {
             "uri" : "file:/media/data/Android/Sdk/platforms/android-28/android.jar/android/content/res/Resources.class",
-            "index" : 34
+            "index" : 35
           }
         },
         "message" : {
@@ -5353,7 +5713,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/dnsfilter/android/DNSProxyActivity.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 2
+            "index" : 4
           },
           "region" : {
             "startLine" : 826,
@@ -5371,7 +5731,7 @@
         "physicalLocation" : {
           "artifactLocation" : {
             "uri" : "file:/media/data/Android/Sdk/platforms/android-28/android.jar/android/content/res/Resources.class",
-            "index" : 34
+            "index" : 35
           }
         },
         "message" : {
@@ -5389,7 +5749,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/dnsfilter/android/DNSProxyActivity.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 2
+            "index" : 4
           },
           "region" : {
             "startLine" : 828,
@@ -5407,7 +5767,7 @@
         "physicalLocation" : {
           "artifactLocation" : {
             "uri" : "file:/media/data/Android/Sdk/platforms/android-28/android.jar/android/content/res/Resources.class",
-            "index" : 34
+            "index" : 35
           }
         },
         "message" : {
@@ -5425,7 +5785,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/dnsfilter/DNSFilterManager.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 4
+            "index" : 6
           },
           "region" : {
             "startLine" : 587,
@@ -5444,7 +5804,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/dnsfilter/DNSFilterManager.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 4
+            "index" : 6
           },
           "region" : {
             "startLine" : 587,
@@ -5461,7 +5821,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/dnsfilter/DNSFilterManager.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 4
+            "index" : 6
           },
           "region" : {
             "startLine" : 585,
@@ -5484,7 +5844,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/dnsfilter/remote/RemoteAccessClient.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 0
+            "index" : 2
           },
           "region" : {
             "startLine" : 146,
@@ -5503,7 +5863,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/dnsfilter/remote/RemoteAccessClient.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 0
+            "index" : 2
           },
           "region" : {
             "startLine" : 146,
@@ -5520,7 +5880,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/dnsfilter/remote/RemoteAccessClient.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 0
+            "index" : 2
           },
           "region" : {
             "startLine" : 119,
@@ -5543,7 +5903,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/dnsfilter/DNSServer.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 35
+            "index" : 36
           },
           "region" : {
             "startLine" : 253,
@@ -5567,7 +5927,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/dnsfilter/android/DNSFilterService.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 9
+            "index" : 11
           },
           "region" : {
             "startLine" : 682,
@@ -5591,7 +5951,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/dnsfilter/remote/RemoteAccessClient.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 0
+            "index" : 2
           },
           "region" : {
             "startLine" : 274,
@@ -5615,7 +5975,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/dnsfilter/remote/RemoteAccessClient.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 0
+            "index" : 2
           },
           "region" : {
             "startLine" : 298,
@@ -5639,7 +5999,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/dnsfilter/remote/RemoteAccessClient.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 0
+            "index" : 2
           },
           "region" : {
             "startLine" : 326,
@@ -5663,7 +6023,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/dnsfilter/remote/RemoteAccessClient.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 0
+            "index" : 2
           },
           "region" : {
             "startLine" : 398,
@@ -5687,7 +6047,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/dnsfilter/remote/RemoteAccessClient.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 0
+            "index" : 2
           },
           "region" : {
             "startLine" : 431,
@@ -5711,7 +6071,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/dnsfilter/DNSServer.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 35
+            "index" : 36
           },
           "region" : {
             "startLine" : 252,
@@ -5735,7 +6095,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/dnsfilter/DNSServer.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 35
+            "index" : 36
           },
           "region" : {
             "startLine" : 322,
@@ -5759,7 +6119,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/dnsfilter/remote/RemoteAccessClient.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 0
+            "index" : 2
           },
           "region" : {
             "startLine" : 250,
@@ -5783,7 +6143,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/dnsfilter/remote/RemoteAccessClient.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 0
+            "index" : 2
           },
           "region" : {
             "startLine" : 299,
@@ -5807,7 +6167,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/dnsfilter/remote/RemoteAccessClient.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 0
+            "index" : 2
           },
           "region" : {
             "startLine" : 327,
@@ -5831,7 +6191,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/dnsfilter/remote/RemoteAccessClient.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 0
+            "index" : 2
           },
           "region" : {
             "startLine" : 432,
@@ -5855,7 +6215,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/util/conpool/Connection.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 6
+            "index" : 8
           },
           "region" : {
             "startLine" : 169,
@@ -5879,7 +6239,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/util/conpool/Connection.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 6
+            "index" : 8
           },
           "region" : {
             "startLine" : 263,
@@ -5898,7 +6258,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/util/conpool/Connection.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 6
+            "index" : 8
           },
           "region" : {
             "startLine" : 263,
@@ -5921,7 +6281,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/dnsfilter/DNSFilterManager.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 4
+            "index" : 6
           },
           "region" : {
             "startLine" : 701,
@@ -5940,7 +6300,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/dnsfilter/DNSFilterManager.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 4
+            "index" : 6
           },
           "region" : {
             "startLine" : 701,
@@ -5963,7 +6323,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/dnsfilter/DNSResponsePatcher.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 36
+            "index" : 37
           },
           "region" : {
             "startLine" : 245,
@@ -5982,7 +6342,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/dnsfilter/DNSResponsePatcher.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 36
+            "index" : 37
           },
           "region" : {
             "startLine" : 232,
@@ -6005,7 +6365,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/dnsfilter/DNSServer.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 35
+            "index" : 36
           },
           "region" : {
             "startLine" : 248,
@@ -6024,7 +6384,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/dnsfilter/DNSServer.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 35
+            "index" : 36
           },
           "region" : {
             "startLine" : 248,
@@ -6041,7 +6401,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/dnsfilter/DNSServer.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 35
+            "index" : 36
           },
           "region" : {
             "startLine" : 264,
@@ -6064,7 +6424,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/dnsfilter/DNSServer.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 35
+            "index" : 36
           },
           "region" : {
             "startLine" : 318,
@@ -6083,7 +6443,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/dnsfilter/DNSServer.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 35
+            "index" : 36
           },
           "region" : {
             "startLine" : 318,
@@ -6100,7 +6460,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/dnsfilter/DNSServer.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 35
+            "index" : 36
           },
           "region" : {
             "startLine" : 337,
@@ -6123,7 +6483,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/util/Utils.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 37
+            "index" : 38
           },
           "region" : {
             "startLine" : 185,
@@ -6142,7 +6502,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/util/Utils.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 37
+            "index" : 38
           },
           "region" : {
             "startLine" : 185,
@@ -6165,7 +6525,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/dnsfilter/DNSServer.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 35
+            "index" : 36
           },
           "region" : {
             "startLine" : 40,
@@ -6184,7 +6544,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/dnsfilter/DNSServer.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 35
+            "index" : 36
           },
           "region" : {
             "startLine" : 152,
@@ -6207,7 +6567,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/dnsfilter/android/AppSelectorView.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 28
+            "index" : 29
           },
           "region" : {
             "startLine" : 169,
@@ -6231,7 +6591,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/dnsfilter/remote/RemoteAccessServer.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 10
+            "index" : 12
           },
           "region" : {
             "startLine" : 173,
@@ -6255,7 +6615,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/dnsfilter/remote/RemoteAccessServer.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 10
+            "index" : 12
           },
           "region" : {
             "startLine" : 173,
@@ -6279,7 +6639,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/dnsfilter/android/FilterConfig.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 38
+            "index" : 39
           },
           "region" : {
             "startLine" : 335,
@@ -6303,7 +6663,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/dnsfilter/DNSFilterManager.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 4
+            "index" : 6
           },
           "region" : {
             "startLine" : 1313,
@@ -6327,7 +6687,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/dnsfilter/DNSFilterManager.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 4
+            "index" : 6
           },
           "region" : {
             "startLine" : 1327,
@@ -6351,7 +6711,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/dnsfilter/android/FilterConfig.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 38
+            "index" : 39
           },
           "region" : {
             "startLine" : 143,
@@ -6375,7 +6735,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/dnsfilter/android/FilterConfig.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 38
+            "index" : 39
           },
           "region" : {
             "startLine" : 144,
@@ -6399,7 +6759,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/dnsfilter/android/FilterConfig.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 38
+            "index" : 39
           },
           "region" : {
             "startLine" : 148,
@@ -6423,7 +6783,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/dnsfilter/android/FilterConfig.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 38
+            "index" : 39
           },
           "region" : {
             "startLine" : 149,
@@ -6447,7 +6807,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/dnsfilter/android/FilterConfig.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 38
+            "index" : 39
           },
           "region" : {
             "startLine" : 276,
@@ -6471,7 +6831,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/dnsfilter/android/FilterConfig.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 38
+            "index" : 39
           },
           "region" : {
             "startLine" : 312,
@@ -6495,7 +6855,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/dnsfilter/android/FilterConfig.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 38
+            "index" : 39
           },
           "region" : {
             "startLine" : 317,
@@ -6519,7 +6879,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/dnsfilter/android/FilterConfig.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 38
+            "index" : 39
           },
           "region" : {
             "startLine" : 318,
@@ -6543,7 +6903,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/dnsfilter/android/AppSelectorView.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 28
+            "index" : 29
           },
           "region" : {
             "startLine" : 32,
@@ -6567,7 +6927,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/dnsfilter/BlockedHosts.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 3
+            "index" : 5
           },
           "region" : {
             "startLine" : 287,
@@ -6591,7 +6951,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/dnsfilter/BlockedHosts.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 3
+            "index" : 5
           },
           "region" : {
             "startLine" : 293,
@@ -6615,7 +6975,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/dnsfilter/DNSFilterManager.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 4
+            "index" : 6
           },
           "region" : {
             "startLine" : 561,
@@ -6639,7 +6999,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/dnsfilter/DNSFilterManager.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 4
+            "index" : 6
           },
           "region" : {
             "startLine" : 714,
@@ -6663,7 +7023,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/dnsfilter/DNSFilterManager.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 4
+            "index" : 6
           },
           "region" : {
             "startLine" : 1039,
@@ -6687,7 +7047,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/dnsfilter/DNSFilterManager.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 4
+            "index" : 6
           },
           "region" : {
             "startLine" : 1066,
@@ -6711,7 +7071,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/dnsfilter/android/DNSFilterService.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 9
+            "index" : 11
           },
           "region" : {
             "startLine" : 370,
@@ -6735,7 +7095,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/dnsfilter/android/DNSFilterService.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 9
+            "index" : 11
           },
           "region" : {
             "startLine" : 433,
@@ -6759,7 +7119,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/dnsfilter/android/DNSProxyActivity.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 2
+            "index" : 4
           },
           "region" : {
             "startLine" : 707,
@@ -6783,7 +7143,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/dnsfilter/android/DNSProxyActivity.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 2
+            "index" : 4
           },
           "region" : {
             "startLine" : 943,
@@ -6807,7 +7167,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/dnsfilter/android/DNSProxyActivity.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 2
+            "index" : 4
           },
           "region" : {
             "startLine" : 946,
@@ -6831,7 +7191,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/dnsfilter/android/DNSProxyActivity.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 2
+            "index" : 4
           },
           "region" : {
             "startLine" : 959,
@@ -6855,7 +7215,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/dnsfilter/android/DNSProxyActivity.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 2
+            "index" : 4
           },
           "region" : {
             "startLine" : 1173,
@@ -6879,7 +7239,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/dnsfilter/android/DNSProxyActivity.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 2
+            "index" : 4
           },
           "region" : {
             "startLine" : 1173,
@@ -6903,7 +7263,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/dnsfilter/android/DNSProxyActivity.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 2
+            "index" : 4
           },
           "region" : {
             "startLine" : 1585,
@@ -6927,7 +7287,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/dnsfilter/android/DNSProxyActivity.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 2
+            "index" : 4
           },
           "region" : {
             "startLine" : 1614,
@@ -6951,7 +7311,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/dnsfilter/android/FilterConfig.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 38
+            "index" : 39
           },
           "region" : {
             "startLine" : 345,
@@ -6975,7 +7335,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/dnsfilter/android/FilterConfig.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 38
+            "index" : 39
           },
           "region" : {
             "startLine" : 349,
@@ -6999,7 +7359,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/dnsfilter/android/FilterConfig.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 38
+            "index" : 39
           },
           "region" : {
             "startLine" : 354,
@@ -7023,7 +7383,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/dnsfilter/android/FilterConfig.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 38
+            "index" : 39
           },
           "region" : {
             "startLine" : 358,
@@ -7047,7 +7407,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/util/conpool/Connection.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 6
+            "index" : 8
           },
           "region" : {
             "startLine" : 183,
@@ -7071,7 +7431,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/util/http/HttpHeader.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 8
+            "index" : 10
           },
           "region" : {
             "startLine" : 101,
@@ -7095,7 +7455,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/dnsfilter/android/DNSFilterService.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 9
+            "index" : 11
           },
           "region" : {
             "startLine" : 681,
@@ -7119,7 +7479,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/dnsfilter/DNSServer.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 35
+            "index" : 36
           },
           "region" : {
             "startLine" : 177,
@@ -7138,7 +7498,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/dnsfilter/DNSServer.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 35
+            "index" : 36
           },
           "region" : {
             "startLine" : 159,
@@ -7155,7 +7515,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/dnsfilter/DNSServer.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 35
+            "index" : 36
           },
           "region" : {
             "startLine" : 161,
@@ -7172,7 +7532,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/dnsfilter/DNSServer.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 35
+            "index" : 36
           },
           "region" : {
             "startLine" : 161,
@@ -7195,7 +7555,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/dnsfilter/DNSServer.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 35
+            "index" : 36
           },
           "region" : {
             "startLine" : 177,
@@ -7214,7 +7574,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/dnsfilter/DNSServer.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 35
+            "index" : 36
           },
           "region" : {
             "startLine" : 159,
@@ -7231,7 +7591,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/dnsfilter/DNSServer.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 35
+            "index" : 36
           },
           "region" : {
             "startLine" : 161,
@@ -7248,7 +7608,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/dnsfilter/DNSServer.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 35
+            "index" : 36
           },
           "region" : {
             "startLine" : 161,
@@ -7265,7 +7625,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/dnsfilter/DNSServer.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 35
+            "index" : 36
           },
           "region" : {
             "startLine" : 177,
@@ -7288,7 +7648,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/dnsfilter/DNSServer.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 35
+            "index" : 36
           },
           "region" : {
             "startLine" : 178,
@@ -7307,7 +7667,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/dnsfilter/DNSServer.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 35
+            "index" : 36
           },
           "region" : {
             "startLine" : 159,
@@ -7324,7 +7684,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/dnsfilter/DNSServer.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 35
+            "index" : 36
           },
           "region" : {
             "startLine" : 161,
@@ -7341,7 +7701,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/dnsfilter/DNSServer.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 35
+            "index" : 36
           },
           "region" : {
             "startLine" : 161,
@@ -7358,7 +7718,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/dnsfilter/DNSServer.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 35
+            "index" : 36
           },
           "region" : {
             "startLine" : 177,
@@ -7375,7 +7735,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/dnsfilter/DNSServer.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 35
+            "index" : 36
           },
           "region" : {
             "startLine" : 177,
@@ -7398,7 +7758,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/dnsfilter/DNSServer.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 35
+            "index" : 36
           },
           "region" : {
             "startLine" : 180,
@@ -7417,7 +7777,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/dnsfilter/DNSServer.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 35
+            "index" : 36
           },
           "region" : {
             "startLine" : 159,
@@ -7434,7 +7794,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/dnsfilter/DNSServer.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 35
+            "index" : 36
           },
           "region" : {
             "startLine" : 161,
@@ -7451,7 +7811,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/dnsfilter/DNSServer.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 35
+            "index" : 36
           },
           "region" : {
             "startLine" : 161,
@@ -7474,7 +7834,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/dnsfilter/DNSServer.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 35
+            "index" : 36
           },
           "region" : {
             "startLine" : 182,
@@ -7493,7 +7853,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/dnsfilter/DNSServer.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 35
+            "index" : 36
           },
           "region" : {
             "startLine" : 159,
@@ -7510,7 +7870,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/dnsfilter/DNSServer.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 35
+            "index" : 36
           },
           "region" : {
             "startLine" : 161,
@@ -7527,7 +7887,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/dnsfilter/DNSServer.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 35
+            "index" : 36
           },
           "region" : {
             "startLine" : 161,
@@ -7550,7 +7910,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/dnsfilter/DNSServer.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 35
+            "index" : 36
           },
           "region" : {
             "startLine" : 182,
@@ -7569,7 +7929,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/dnsfilter/DNSServer.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 35
+            "index" : 36
           },
           "region" : {
             "startLine" : 159,
@@ -7586,7 +7946,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/dnsfilter/DNSServer.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 35
+            "index" : 36
           },
           "region" : {
             "startLine" : 161,
@@ -7603,7 +7963,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/dnsfilter/DNSServer.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 35
+            "index" : 36
           },
           "region" : {
             "startLine" : 161,
@@ -7626,7 +7986,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/dnsfilter/DNSServer.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 35
+            "index" : 36
           },
           "region" : {
             "startLine" : 182,
@@ -7645,7 +8005,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/dnsfilter/DNSServer.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 35
+            "index" : 36
           },
           "region" : {
             "startLine" : 159,
@@ -7662,7 +8022,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/dnsfilter/DNSServer.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 35
+            "index" : 36
           },
           "region" : {
             "startLine" : 161,
@@ -7679,7 +8039,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/dnsfilter/DNSServer.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 35
+            "index" : 36
           },
           "region" : {
             "startLine" : 161,
@@ -7702,7 +8062,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/util/Encryption.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 12
+            "index" : 0
           },
           "region" : {
             "startLine" : 18,
@@ -7723,7 +8083,7 @@
                 "artifactLocation" : {
                   "uri" : "app/src/main/java/util/Encryption.java",
                   "uriBaseId" : "%SRCROOT%",
-                  "index" : 12
+                  "index" : 0
                 },
                 "region" : {
                   "startLine" : 18,
@@ -7741,7 +8101,7 @@
                 "artifactLocation" : {
                   "uri" : "app/src/main/java/util/Encryption.java",
                   "uriBaseId" : "%SRCROOT%",
-                  "index" : 12
+                  "index" : 0
                 },
                 "region" : {
                   "startLine" : 55,
@@ -7762,7 +8122,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/util/Encryption.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 12
+            "index" : 0
           },
           "region" : {
             "startLine" : 55,
@@ -7785,7 +8145,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/dnsfilter/remote/RemoteAccessServer.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 10
+            "index" : 12
           },
           "region" : {
             "startLine" : 41,
@@ -7804,7 +8164,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/dnsfilter/remote/RemoteAccessServer.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 10
+            "index" : 12
           },
           "region" : {
             "startLine" : 29,
@@ -7827,7 +8187,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/util/LRUCache.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 39
+            "index" : 40
           },
           "region" : {
             "startLine" : 30,
@@ -7851,7 +8211,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/dnsfilter/android/AppSelectorView.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 28
+            "index" : 29
           },
           "region" : {
             "startLine" : 32,
@@ -7870,7 +8230,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/dnsfilter/android/AppSelectorView.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 28
+            "index" : 29
           },
           "region" : {
             "startLine" : 45,

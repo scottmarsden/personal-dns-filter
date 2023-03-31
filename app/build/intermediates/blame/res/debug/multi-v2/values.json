@@ -1,29 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/media/data/muse2/muse2repo_personaldns/src_code/personaldnsfilter-mutant1/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+            "outputFile": "/media/data/muse2/muse2repo_personaldns/src_code/personaldnsfilter-mutant2/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
             "map": [
                 {
-                    "source": "/media/data/muse2/muse2repo_personaldns/src_code/personaldnsfilter-mutant1/app/src/main/res/values/themes.xml",
-                    "from": {
-                        "startLines": "7,2",
-                        "startColumns": "2,2",
-                        "startOffsets": "353,55",
-                        "endLines": "10,6",
-                        "endColumns": "10,10",
-                        "endOffsets": "567,349"
-                    },
-                    "to": {
-                        "startLines": "34,38",
-                        "startColumns": "4,4",
-                        "startOffsets": "2023,2239",
-                        "endLines": "37,42",
-                        "endColumns": "10,10",
-                        "endOffsets": "2234,2529"
-                    }
-                },
-                {
-                    "source": "/media/data/muse2/muse2repo_personaldns/src_code/personaldnsfilter-mutant1/app/src/main/res/values/styles.xml",
+                    "source": "/media/data/muse2/muse2repo_personaldns/src_code/personaldnsfilter-mutant2/app/src/main/res/values/styles.xml",
                     "from": {
                         "startLines": "2,5",
                         "startColumns": "2,2",
@@ -42,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "/media/data/muse2/muse2repo_personaldns/src_code/personaldnsfilter-mutant1/app/src/main/res/values/strings.xml",
+                    "source": "/media/data/muse2/muse2repo_personaldns/src_code/personaldnsfilter-mutant2/app/src/main/res/values/strings.xml",
                     "from": {
                         "startLines": "14,13,8,21,19,31,11,3,23,26,22,17,15,10,30,9,7,18,12,28,4,16,27,33,32,24,25,29,34,20,5,6",
                         "startColumns": "2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2",
@@ -56,6 +37,25 @@
                         "startOffsets": "55,114,168,235,292,334,385,448,495,557,603,667,744,786,869,931,1006,1069,1146,1213,1281,1331,1431,1469,1548,1605,1662,1735,1804,1877,1926,1976",
                         "endColumns": "58,53,66,56,41,50,62,46,61,45,63,76,41,82,61,74,62,76,66,67,49,99,37,78,56,56,72,68,72,48,49,46",
                         "endOffsets": "109,163,230,287,329,380,443,490,552,598,662,739,781,864,926,1001,1064,1141,1208,1276,1326,1426,1464,1543,1600,1657,1730,1799,1872,1921,1971,2018"
+                    }
+                },
+                {
+                    "source": "/media/data/muse2/muse2repo_personaldns/src_code/personaldnsfilter-mutant2/app/src/main/res/values/themes.xml",
+                    "from": {
+                        "startLines": "7,2",
+                        "startColumns": "2,2",
+                        "startOffsets": "353,55",
+                        "endLines": "10,6",
+                        "endColumns": "10,10",
+                        "endOffsets": "567,349"
+                    },
+                    "to": {
+                        "startLines": "34,38",
+                        "startColumns": "4,4",
+                        "startOffsets": "2023,2239",
+                        "endLines": "37,42",
+                        "endColumns": "10,10",
+                        "endOffsets": "2234,2529"
                     }
                 }
             ]

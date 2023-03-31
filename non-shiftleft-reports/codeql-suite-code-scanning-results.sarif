@@ -575,24 +575,298 @@
     },
     "artifacts" : [ {
       "location" : {
-        "uri" : "app/src/main/java/dnsfilter/remote/RemoteAccessClient.java",
+        "uri" : "app/src/main/java/util/Encryption.java",
         "uriBaseId" : "%SRCROOT%",
         "index" : 0
       }
     }, {
       "location" : {
-        "uri" : "app/src/main/java/dnsfilter/ConfigurationAccess.java",
+        "uri" : "app/src/main/java/util/CipherExample.java",
         "uriBaseId" : "%SRCROOT%",
         "index" : 1
       }
     }, {
       "location" : {
-        "uri" : "app/src/main/java/dnsfilter/android/DNSProxyActivity.java",
+        "uri" : "app/src/main/java/dnsfilter/remote/RemoteAccessClient.java",
         "uriBaseId" : "%SRCROOT%",
         "index" : 2
       }
+    }, {
+      "location" : {
+        "uri" : "app/src/main/java/dnsfilter/ConfigurationAccess.java",
+        "uriBaseId" : "%SRCROOT%",
+        "index" : 3
+      }
+    }, {
+      "location" : {
+        "uri" : "app/src/main/java/dnsfilter/android/DNSProxyActivity.java",
+        "uriBaseId" : "%SRCROOT%",
+        "index" : 4
+      }
     } ],
     "results" : [ {
+      "ruleId" : "java/weak-cryptographic-algorithm",
+      "ruleIndex" : 8,
+      "message" : {
+        "text" : "Cryptographic algorithm [\"des\"](1) is weak and should not be used."
+      },
+      "locations" : [ {
+        "physicalLocation" : {
+          "artifactLocation" : {
+            "uri" : "app/src/main/java/util/Encryption.java",
+            "uriBaseId" : "%SRCROOT%",
+            "index" : 0
+          },
+          "region" : {
+            "startLine" : 61,
+            "startColumn" : 25,
+            "endColumn" : 78
+          }
+        }
+      } ],
+      "partialFingerprints" : {
+        "primaryLocationLineHash" : "87beea4bab6dcb15:1",
+        "primaryLocationStartColumnFingerprint" : "24"
+      },
+      "codeFlows" : [ {
+        "threadFlows" : [ {
+          "locations" : [ {
+            "location" : {
+              "physicalLocation" : {
+                "artifactLocation" : {
+                  "uri" : "app/src/main/java/util/Encryption.java",
+                  "uriBaseId" : "%SRCROOT%",
+                  "index" : 0
+                },
+                "region" : {
+                  "startLine" : 61,
+                  "startColumn" : 44,
+                  "endColumn" : 49
+                }
+              },
+              "message" : {
+                "text" : "\"des\" : String"
+              }
+            }
+          }, {
+            "location" : {
+              "physicalLocation" : {
+                "artifactLocation" : {
+                  "uri" : "app/src/main/java/util/Encryption.java",
+                  "uriBaseId" : "%SRCROOT%",
+                  "index" : 0
+                },
+                "region" : {
+                  "startLine" : 61,
+                  "startColumn" : 44,
+                  "endColumn" : 77
+                }
+              },
+              "message" : {
+                "text" : "toUpperCase(...)"
+              }
+            }
+          } ]
+        } ]
+      } ],
+      "relatedLocations" : [ {
+        "id" : 1,
+        "physicalLocation" : {
+          "artifactLocation" : {
+            "uri" : "app/src/main/java/util/Encryption.java",
+            "uriBaseId" : "%SRCROOT%",
+            "index" : 0
+          },
+          "region" : {
+            "startLine" : 61,
+            "startColumn" : 44,
+            "endColumn" : 49
+          }
+        },
+        "message" : {
+          "text" : "\"des\""
+        }
+      } ]
+    }, {
+      "ruleId" : "java/weak-cryptographic-algorithm",
+      "ruleIndex" : 8,
+      "message" : {
+        "text" : "Cryptographic algorithm [\"des\"](1) is weak and should not be used."
+      },
+      "locations" : [ {
+        "physicalLocation" : {
+          "artifactLocation" : {
+            "uri" : "app/src/main/java/util/Encryption.java",
+            "uriBaseId" : "%SRCROOT%",
+            "index" : 0
+          },
+          "region" : {
+            "startLine" : 62,
+            "startColumn" : 25,
+            "endColumn" : 50
+          }
+        }
+      } ],
+      "partialFingerprints" : {
+        "primaryLocationLineHash" : "cccc6c64737525f9:1",
+        "primaryLocationStartColumnFingerprint" : "24"
+      },
+      "relatedLocations" : [ {
+        "id" : 1,
+        "physicalLocation" : {
+          "artifactLocation" : {
+            "uri" : "app/src/main/java/util/Encryption.java",
+            "uriBaseId" : "%SRCROOT%",
+            "index" : 0
+          },
+          "region" : {
+            "startLine" : 62,
+            "startColumn" : 44,
+            "endColumn" : 49
+          }
+        },
+        "message" : {
+          "text" : "\"des\""
+        }
+      } ]
+    }, {
+      "ruleId" : "java/weak-cryptographic-algorithm",
+      "ruleIndex" : 8,
+      "message" : {
+        "text" : "Cryptographic algorithm [\"DES\"](1) is weak and should not be used."
+      },
+      "locations" : [ {
+        "physicalLocation" : {
+          "artifactLocation" : {
+            "uri" : "app/src/main/java/util/Encryption.java",
+            "uriBaseId" : "%SRCROOT%",
+            "index" : 0
+          },
+          "region" : {
+            "startLine" : 64,
+            "startColumn" : 25,
+            "endColumn" : 100
+          }
+        }
+      } ],
+      "partialFingerprints" : {
+        "primaryLocationLineHash" : "983c7800a90efb25:1",
+        "primaryLocationStartColumnFingerprint" : "24"
+      },
+      "codeFlows" : [ {
+        "threadFlows" : [ {
+          "locations" : [ {
+            "location" : {
+              "physicalLocation" : {
+                "artifactLocation" : {
+                  "uri" : "app/src/main/java/util/CipherExample.java",
+                  "uriBaseId" : "%SRCROOT%",
+                  "index" : 1
+                },
+                "region" : {
+                  "startLine" : 17,
+                  "startColumn" : 22,
+                  "endColumn" : 27
+                }
+              },
+              "message" : {
+                "text" : "\"DES\" : String"
+              }
+            }
+          }, {
+            "location" : {
+              "physicalLocation" : {
+                "artifactLocation" : {
+                  "uri" : "app/src/main/java/util/CipherExample.java",
+                  "uriBaseId" : "%SRCROOT%",
+                  "index" : 1
+                },
+                "region" : {
+                  "startLine" : 17,
+                  "startColumn" : 9,
+                  "endColumn" : 19
+                }
+              },
+              "message" : {
+                "text" : "this <.field> [post update] [cipherName] : String"
+              }
+            }
+          }, {
+            "location" : {
+              "physicalLocation" : {
+                "artifactLocation" : {
+                  "uri" : "app/src/main/java/util/CipherExample.java",
+                  "uriBaseId" : "%SRCROOT%",
+                  "index" : 1
+                },
+                "region" : {
+                  "startLine" : 18,
+                  "startColumn" : 16,
+                  "endColumn" : 20
+                }
+              },
+              "message" : {
+                "text" : "this [cipherName] : String"
+              }
+            }
+          }, {
+            "location" : {
+              "physicalLocation" : {
+                "artifactLocation" : {
+                  "uri" : "app/src/main/java/util/Encryption.java",
+                  "uriBaseId" : "%SRCROOT%",
+                  "index" : 0
+                },
+                "region" : {
+                  "startLine" : 64,
+                  "startColumn" : 44,
+                  "endColumn" : 83
+                }
+              },
+              "message" : {
+                "text" : "methodB(...) [cipherName] : String"
+              }
+            }
+          }, {
+            "location" : {
+              "physicalLocation" : {
+                "artifactLocation" : {
+                  "uri" : "app/src/main/java/util/Encryption.java",
+                  "uriBaseId" : "%SRCROOT%",
+                  "index" : 0
+                },
+                "region" : {
+                  "startLine" : 64,
+                  "startColumn" : 44,
+                  "endColumn" : 99
+                }
+              },
+              "message" : {
+                "text" : "getCipherName(...)"
+              }
+            }
+          } ]
+        } ]
+      } ],
+      "relatedLocations" : [ {
+        "id" : 1,
+        "physicalLocation" : {
+          "artifactLocation" : {
+            "uri" : "app/src/main/java/util/CipherExample.java",
+            "uriBaseId" : "%SRCROOT%",
+            "index" : 1
+          },
+          "region" : {
+            "startLine" : 17,
+            "startColumn" : 22,
+            "endColumn" : 27
+          }
+        },
+        "message" : {
+          "text" : "\"DES\""
+        }
+      } ]
+    }, {
       "ruleId" : "java/unsafe-deserialization",
       "ruleIndex" : 19,
       "message" : {
@@ -603,7 +877,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/dnsfilter/remote/RemoteAccessClient.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 0
+            "index" : 2
           },
           "region" : {
             "startLine" : 230,
@@ -624,7 +898,7 @@
                 "artifactLocation" : {
                   "uri" : "app/src/main/java/dnsfilter/remote/RemoteAccessClient.java",
                   "uriBaseId" : "%SRCROOT%",
-                  "index" : 0
+                  "index" : 2
                 },
                 "region" : {
                   "startLine" : 123,
@@ -642,7 +916,7 @@
                 "artifactLocation" : {
                   "uri" : "app/src/main/java/dnsfilter/remote/RemoteAccessClient.java",
                   "uriBaseId" : "%SRCROOT%",
-                  "index" : 0
+                  "index" : 2
                 },
                 "region" : {
                   "startLine" : 123,
@@ -660,7 +934,7 @@
                 "artifactLocation" : {
                   "uri" : "app/src/main/java/dnsfilter/remote/RemoteAccessClient.java",
                   "uriBaseId" : "%SRCROOT%",
-                  "index" : 0
+                  "index" : 2
                 },
                 "region" : {
                   "startLine" : 143,
@@ -678,7 +952,7 @@
                 "artifactLocation" : {
                   "uri" : "app/src/main/java/dnsfilter/remote/RemoteAccessClient.java",
                   "uriBaseId" : "%SRCROOT%",
-                  "index" : 0
+                  "index" : 2
                 },
                 "region" : {
                   "startLine" : 71,
@@ -696,7 +970,7 @@
                 "artifactLocation" : {
                   "uri" : "app/src/main/java/dnsfilter/remote/RemoteAccessClient.java",
                   "uriBaseId" : "%SRCROOT%",
-                  "index" : 0
+                  "index" : 2
                 },
                 "region" : {
                   "startLine" : 73,
@@ -714,7 +988,7 @@
                 "artifactLocation" : {
                   "uri" : "app/src/main/java/dnsfilter/remote/RemoteAccessClient.java",
                   "uriBaseId" : "%SRCROOT%",
-                  "index" : 0
+                  "index" : 2
                 },
                 "region" : {
                   "startLine" : 73,
@@ -732,7 +1006,7 @@
                 "artifactLocation" : {
                   "uri" : "app/src/main/java/dnsfilter/remote/RemoteAccessClient.java",
                   "uriBaseId" : "%SRCROOT%",
-                  "index" : 0
+                  "index" : 2
                 },
                 "region" : {
                   "startLine" : 66,
@@ -750,7 +1024,7 @@
                 "artifactLocation" : {
                   "uri" : "app/src/main/java/dnsfilter/ConfigurationAccess.java",
                   "uriBaseId" : "%SRCROOT%",
-                  "index" : 1
+                  "index" : 3
                 },
                 "region" : {
                   "startLine" : 28,
@@ -768,7 +1042,7 @@
                 "artifactLocation" : {
                   "uri" : "app/src/main/java/dnsfilter/android/DNSProxyActivity.java",
                   "uriBaseId" : "%SRCROOT%",
-                  "index" : 2
+                  "index" : 4
                 },
                 "region" : {
                   "startLine" : 1191,
@@ -786,7 +1060,7 @@
                 "artifactLocation" : {
                   "uri" : "app/src/main/java/dnsfilter/android/DNSProxyActivity.java",
                   "uriBaseId" : "%SRCROOT%",
-                  "index" : 2
+                  "index" : 4
                 },
                 "region" : {
                   "startLine" : 1149,
@@ -804,7 +1078,7 @@
                 "artifactLocation" : {
                   "uri" : "app/src/main/java/dnsfilter/android/DNSProxyActivity.java",
                   "uriBaseId" : "%SRCROOT%",
-                  "index" : 2
+                  "index" : 4
                 },
                 "region" : {
                   "startLine" : 1150,
@@ -822,7 +1096,7 @@
                 "artifactLocation" : {
                   "uri" : "app/src/main/java/dnsfilter/android/DNSProxyActivity.java",
                   "uriBaseId" : "%SRCROOT%",
-                  "index" : 2
+                  "index" : 4
                 },
                 "region" : {
                   "startLine" : 568,
@@ -840,7 +1114,7 @@
                 "artifactLocation" : {
                   "uri" : "app/src/main/java/dnsfilter/remote/RemoteAccessClient.java",
                   "uriBaseId" : "%SRCROOT%",
-                  "index" : 0
+                  "index" : 2
                 },
                 "region" : {
                   "startLine" : 220,
@@ -858,7 +1132,7 @@
                 "artifactLocation" : {
                   "uri" : "app/src/main/java/dnsfilter/remote/RemoteAccessClient.java",
                   "uriBaseId" : "%SRCROOT%",
-                  "index" : 0
+                  "index" : 2
                 },
                 "region" : {
                   "startLine" : 224,
@@ -876,7 +1150,7 @@
                 "artifactLocation" : {
                   "uri" : "app/src/main/java/dnsfilter/remote/RemoteAccessClient.java",
                   "uriBaseId" : "%SRCROOT%",
-                  "index" : 0
+                  "index" : 2
                 },
                 "region" : {
                   "startLine" : 224,
@@ -894,7 +1168,7 @@
                 "artifactLocation" : {
                   "uri" : "app/src/main/java/dnsfilter/remote/RemoteAccessClient.java",
                   "uriBaseId" : "%SRCROOT%",
-                  "index" : 0
+                  "index" : 2
                 },
                 "region" : {
                   "startLine" : 230,
@@ -915,7 +1189,7 @@
           "artifactLocation" : {
             "uri" : "app/src/main/java/dnsfilter/remote/RemoteAccessClient.java",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 0
+            "index" : 2
           },
           "region" : {
             "startLine" : 123,
